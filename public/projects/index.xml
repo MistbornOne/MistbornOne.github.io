@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ian Watkins</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Ian Watkins</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 May 2025 17:24:47 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asteroids</title>
+      <link>http://localhost:1313/projects/asteroids/</link>
+      <pubDate>Fri, 02 May 2025 17:24:47 -0400</pubDate>
+      <guid>http://localhost:1313/projects/asteroids/</guid>
+      <description>&lt;p&gt;One of my first &lt;code&gt;Python&lt;/code&gt; projects was to build a CLI version of the classic game Asteroids.&lt;/p&gt;&#xA;&lt;p&gt;You can find it &lt;a href=&#34;https://github.com/MistbornOne/bootdev-asteroids&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

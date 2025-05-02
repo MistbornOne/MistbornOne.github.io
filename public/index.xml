@@ -6,8 +6,15 @@
     <description>Recent content on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 May 2025 17:01:16 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 17:24:47 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asteroids</title>
+      <link>http://localhost:1313/projects/asteroids/</link>
+      <pubDate>Fri, 02 May 2025 17:24:47 -0400</pubDate>
+      <guid>http://localhost:1313/projects/asteroids/</guid>
+      <description>&lt;p&gt;One of my first &lt;code&gt;Python&lt;/code&gt; projects was to build a CLI version of the classic game Asteroids.&lt;/p&gt;&#xA;&lt;p&gt;You can find it &lt;a href=&#34;https://github.com/MistbornOne/bootdev-asteroids&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello, World!</title>
       <link>http://localhost:1313/posts/hello-world/</link>
