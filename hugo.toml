@@ -5,6 +5,10 @@ theme = 'main'
 enableRobotsTXT = true
 enableEmoji = true
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 [params]
 description = "My Personal Website and Blog for Sharing What I Learn as I Go"
 author = "Ian Watkins"
