@@ -10,14 +10,14 @@ enableEmoji = true
 dir = ':cacheDir/images'
 
 [params]
-description = "My Personal Website and Blog for Sharing What I Learn as I Go"
+description = "I'm the dad of 5 humans and 3 dogs who loves a good cup of coffee and an even better book. Follower of Jesus. Major Nerd. This is where I share what I am learning as I go."
 author = "Ian Watkins"
 github = "https://github.com/MistbornOne"
 linkedin = "https://linkedin.com/in/ian-watkins-5000a712a/"
 email = "iankwatkins@gmail.com"
 avatar = "/images/ghibli.jpeg"
 enableDarkMode = true
-defaultTheme = "dark"                                                         # or "light"
+defaultTheme = "dark"                                                                                                                                                                       # or "light"
 codeBlockCopyButton = true
 
 [menu]
@@ -36,11 +36,7 @@ identifier = "projects"
 name = "Projects"
 url = "/projects/"
 weight = 30
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 40
+
 
 [markup]
 [markup.highlight]
