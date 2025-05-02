@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="home-container">
+    <section class="hero">
+        <div class="avatar">
+            {{ if .Site.Params.avatar }}
+            <img src="{{ .Site.Params.avatar }}" alt="{{ .Site.Title }}">
+            {{ end }}
+        </div>
+        <h1>{{ .Site.Title }}</h1>
+        <p class="subtitle">{{ .Site.Params.description }}</p>
+    </section>
+    
+    <section class="recent-posts">
+        <h2>Recent Posts</h2>
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+        {{ range first 5 $paginator.Pages }}
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+            <div class="post-summary">
+                {{ .Summary }}
+            </div>
+            <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+        </article>
+        {{ end }}
+        
+        <div class="see-all">
+            <a href="/posts/">See all posts →</a>
+        </div>
+    </section>
+    
+    <section class="projects">
+        <h2>Projects</h2>
+        {{ range first 3 (where .Site.RegularPages "Type" "projects") }}
+        <article class="project-item">
+            <h3 class="project-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+            <div class="project-summary">
+                {{ .Summary }}
+            </div>
+            <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+        </article>
+        {{ end }}
+        
+        <div class="see-all">
+            <a href="/projects/">See all projects →</a>
+        </div>
+    </section>
+</div>
+{{ end }}

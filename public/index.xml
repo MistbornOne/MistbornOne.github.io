@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ian Watkins</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ian Watkins</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 May 2025 17:01:16 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Fri, 02 May 2025 17:01:16 -0400</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h2 id=&#34;your-first-bit-of-code&#34;&gt;Your First Bit of Code&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Everyone&lt;/strong&gt; starts with the first program that was ever ran on a computer with a visual interface:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Hello, World!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The purpose of the program is to tell the Python interperter to show &amp;ldquo;Hello World&amp;rdquo; on the screen.&lt;/p&gt;&#xA;&lt;p&gt;Go to your terminal and type the following to check for Python:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you get an error, be sure to install it.  On MacOS, I recommend HomeBrew, but you can use your package installer of choice.  For HomeBrew, do the following:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome 👋🏼</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Fri, 02 May 2025 15:45:52 -0400</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-my-blog-and-porfolio&#34;&gt;Welcome To My Blog And Porfolio!&lt;/h2&gt;&#xA;&lt;h5 id=&#34;my-personal-journey-to-becoming-a-developer-from-ground-zero&#34;&gt;My personal journey to becoming a developer from ground zero.&lt;/h5&gt;&#xA;&lt;p&gt;&lt;strong&gt;A Little History&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;      I have had a love for learning languages for as long as I can remember. I lived in Okinawa, Japan for the first five years of my life. Being exposed to multiple languages while I was acquiring my ability to communicate verbally seems to have unlocked a lifelong fascination with becoming a polyglot.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
