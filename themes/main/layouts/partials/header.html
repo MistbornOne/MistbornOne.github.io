@@ -1,15 +1,16 @@
 <header class="sticky-header">
     <div class="header-container">
         <div class="logo">
-            <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            <a href="{{ .Site.BaseURL }}">
+                <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }} logo" class="logo-image">
+                <span class="site-title">{{ .Site.Title }}</span>
+            </a>
         </div>
-
         <nav class="main-nav">
             {{ range .Site.Menus.main }}
             <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
             {{ end }}
         </nav>
-
         <div class="header-right">
             <div class="social-icons">
                 {{ if .Site.Params.github }}
@@ -19,7 +20,6 @@
                     </svg>
                 </a>
                 {{ end }}
-
                 {{ if .Site.Params.linkedin }}
                 <a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -30,7 +30,6 @@
                 </a>
                 {{ end }}
             </div>
-
             <div class="theme-toggle">
                 <button id="theme-toggle-btn" aria-label="Toggle dark mode">
                     <span class="sun-icon">☀️</span>

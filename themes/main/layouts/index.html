@@ -8,8 +8,9 @@
         </div>
         <h1>{{ .Site.Title }}</h1>
         <p class="subtitle">{{ .Site.Params.description }}</p>
+        <p class="subtitle">{{ .Site.Params.description2 }}</p>
     </section>
-    
+
     <section class="recent-posts">
         <h2>Recent Posts</h2>
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
@@ -29,12 +30,12 @@
             <a href="{{ .Permalink }}" class="read-more">Read more →</a>
         </article>
         {{ end }}
-        
+
         <div class="see-all">
             <a href="/posts/">See all posts →</a>
         </div>
     </section>
-    
+
     <section class="projects">
         <h2>Projects</h2>
         {{ range first 3 (where .Site.RegularPages "Type" "projects") }}
@@ -48,7 +49,7 @@
             <a href="{{ .Permalink }}" class="read-more">Read more →</a>
         </article>
         {{ end }}
-        
+
         <div class="see-all">
             <a href="/projects/">See all projects →</a>
         </div>
