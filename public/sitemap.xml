@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-02T21:32:52-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-02T21:32:52-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo-script/</loc>
+    <lastmod>2025-05-02T20:40:33-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/about/</loc>
     <lastmod>2025-05-02T17:33:39-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-05-02T17:33:39-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-02T17:33:39-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/asteroids/</loc>
@@ -18,9 +24,6 @@
     <lastmod>2025-05-02T17:24:47-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hello-world/</loc>
-    <lastmod>2025-05-02T17:01:16-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-05-02T17:01:16-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/welcome/</loc>
