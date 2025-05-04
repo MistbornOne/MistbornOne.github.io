@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Tags | Ian Watkins
+            Variables | Ian Watkins
         </title>
         <meta
             name="description"
@@ -85,46 +85,94 @@
 
 
             <main>
-<div class="list-container">
-    <h1>Tags</h1>
-    
-    
-    <div class="posts-by-year">
-        <h2>2025</h2>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-04T14:17:36-04:00">
-                    May 4, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/python/">Python</a>
-            </h3>
-            <div class="post-summary">
+<article class="single-post">
+    <header class="post-header">
+        <h1 class="post-title">Variables</h1>
+        <div class="post-meta">
+            <time datetime="2025-05-04T14:17:36-04:00">
+                May 4, 2025
+            </time>
+            
+            
+            <div class="post-tags">
+                
+                <a href="/tags/python" class="tag">Python</a>
+                
+                <a href="/tags/beginner" class="tag">Beginner</a>
                 
             </div>
-            <a href="http://localhost:1313/tags/python/" class="read-more">Read more →</a>
-        </article>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-04T14:17:36-04:00">
-                    May 4, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/beginner/">Beginner</a>
-            </h3>
-            <div class="post-summary">
-                
-            </div>
-            <a href="http://localhost:1313/tags/beginner/" class="read-more">Read more →</a>
-        </article>
-        
+            
+        </div>
+    </header>
+    
+    <div class="post-content">
+        <h2 id="what-are-variables">What Are Variables?</h2>
+<p>If you are brand new to coding, the term <em>variables</em> might not immediately register. It&rsquo;s important to understand what a variable is, as most coding languages do use them.</p>
+<h3 id="so-what-are-variables">So What Are Variables?</h3>
+<p>Variables are <em>containers that store values</em>, such as:</p>
+<p><strong>Numbers:</strong></p>
+<ul>
+<li>Integers (3)</li>
+<li>Float (3.0)</li>
+<li>String (&ldquo;3&rdquo;)</li>
+</ul>
+<p><strong>Text:</strong></p>
+<ul>
+<li>Strings are plain text and are wrapped in parenthesis to tell Python to interpret the text as text only. &ldquo;For example, this would be a string&rdquo;</li>
+</ul>
+<p><strong>Boolean:</strong></p>
+<ul>
+<li>Boolean values are simply True or False</li>
+</ul>
+<p><strong>Sequences:</strong></p>
+<ul>
+<li>Lists [&ldquo;Bob&rdquo;, &ldquo;Mary&rdquo;, &ldquo;Tom&rdquo;]</li>
+<li>Tuples (1, &ldquo;hello&rdquo;, 3.14)</li>
+<li>Range is a type of variable that generates a sequence of numbers within a given range.</li>
+</ul>
+<p><strong>Mapping:</strong></p>
+<ul>
+<li>Dictionaries store data in pairs called &ldquo;key/value&rdquo; pairs.</li>
+</ul>
+<p><strong>Binary:</strong></p>
+<ul>
+<li>Bytes are immutable sequences of data (0&rsquo;s and 1&rsquo;s)</li>
+<li>Bytearrays are mutable (changeable) sequences of data</li>
+</ul>
+<p><strong>None Type:</strong></p>
+<ul>
+<li>None is a variable that represents the absence of a value.</li>
+</ul>
+<p>We will ig more into each of those types in subsequent posts, but for now the key takeaway is that a variable is a container that stores a value or set of values.</p>
+<p>Below is an example of <em>declaring</em> different variable types in Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span> <span style="color:#737994;font-style:italic">#the variable is name, the value is &#34;John&#34;</span>
+</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span> <span style="color:#737994;font-style:italic">#the variable is age, the value is 30</span>
+</span></span><span style="display:flex;"><span>is_a_male <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">True</span> <span style="color:#737994;font-style:italic">#boolean variable is_a_male is set to True</span>
+</span></span></code></pre></div><p>Once these variables have been declared, Python will remember them and allow you to call them later, as long as they are either in the global scope or local scope you&rsquo;re calling them in (more on this later).</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span>
+</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(name, age)
+</span></span><span style="display:flex;"><span><span style="color:#737994;font-style:italic"># John, 30</span>
+</span></span></code></pre></div><p>Variables only allow alpha-numeric characters, must be a continuous string and may not include reserved keywords. They can begin with an underscore.</p>
+<p><strong>Best Practice</strong> is to use snake case when creating variables (IE snake_case), though some argue camel case (IE camelCase) is better.</p>
+<p>The name variable comes from the fact that the values being stored are mutable rather than being fixed. In other words, the value may <em>vary</em> or change.</p>
+<p>If you&rsquo;re brand new to coding, I hope this explanation gives a little clarity to the topic of what variables are. In the next post we will discuss some of the variable types in more detail.</p>
+
     </div>
     
-</div>
+    <footer class="post-footer">
+        <div class="post-navigation">
+            
+            <a href="http://localhost:1313/posts/hugo-script/" class="prev-post">
+                ← Hugo Script
+            </a>
+            
+            
+            
+        </div>
+    </footer>
+</article>
 </main>
 
             <footer>
