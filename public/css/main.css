@@ -50,8 +50,8 @@ body {
     color: var(--text-color);
     background-color: var(--bg-color);
     transition:
-        background-color 0.3s,
-        color 0.3s;
+        background-color 0s,
+        color 0s;
 }
 
 .container {
@@ -143,8 +143,8 @@ pre code {
     background-color: var(--bg-color);
     z-index: 1000;
     transition:
-        background-color 0.3s,
-        box-shadow 0.3s;
+        background-color 0s,
+        box-shadow 0s;
     margin-bottom: 2rem;
 }
 
