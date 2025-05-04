@@ -6,29 +6,30 @@
             <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
                 {{ .Date.Format "January 2, 2006" }}
             </time>
-            
-            {{ if .Params.tags }}
-            <div class="post-tags">
-                {{ range .Params.tags }}
-                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
-                {{ end }}
-            </div>
-            {{ end }}
         </div>
     </header>
-    
+
     <div class="post-content">
         {{ .Content }}
     </div>
-    
+
     <footer class="post-footer">
+        {{ if .Params.tags }}
+        <div class="post-tags">
+            <strong>Tags:</strong>
+            {{ range .Params.tags }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+
         <div class="post-navigation">
             {{ if .PrevInSection }}
             <a href="{{ .PrevInSection.Permalink }}" class="prev-post">
                 ← {{ .PrevInSection.Title }}
             </a>
             {{ end }}
-            
+
             {{ if .NextInSection }}
             <a href="{{ .NextInSection.Permalink }}" class="next-post">
                 {{ .NextInSection.Title }} →
