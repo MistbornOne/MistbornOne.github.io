@@ -1,6 +1,7 @@
 +++
 date = '2025-05-02T20:40:33-04:00'
 title = 'Hugo Script'
+tags = ['Scripts']
 +++
 
 ## Shell Script - Create A New Hugo Blog Post

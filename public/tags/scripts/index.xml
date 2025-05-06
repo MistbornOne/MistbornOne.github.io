@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scripts on Ian Watkins</title>
+    <link>http://localhost:1313/tags/scripts/</link>
+    <description>Recent content in Scripts on Ian Watkins</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 May 2025 20:40:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Script</title>
+      <link>http://localhost:1313/posts/hugo-script/</link>
+      <pubDate>Fri, 02 May 2025 20:40:33 -0400</pubDate>
+      <guid>http://localhost:1313/posts/hugo-script/</guid>
+      <description>&lt;h2 id=&#34;shell-script---create-a-new-hugo-blog-post&#34;&gt;Shell Script - Create A New Hugo Blog Post&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve recently been going deep in the world of creating shell scripts to automate tasks as I operate in the shell. I&amp;rsquo;ve seen other developers fly around the terminal like some kind of wizard 🧙🏼‍♂️, their hands never leaving the keyboard.&lt;/p&gt;&#xA;&lt;p&gt;I am no stranger to using keyboard shortcuts to accomplish tasks in other apps I&amp;rsquo;ve used for years in my sales career and content creation, but the terminal is a new environment for me. I&amp;rsquo;ve really enjoyed learning to navigate and use CLI tools to accomplish tasks&amp;hellip; and edit in my text editor of choice, Neovim. However, after a month of typing out the same commands over and over in full, I decided to teach myself to write shell scripts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
