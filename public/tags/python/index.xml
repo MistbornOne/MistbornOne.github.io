@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/variables/</guid>
       <description>&lt;h2 id=&#34;what-are-variables&#34;&gt;What Are Variables?&lt;/h2&gt;&#xA;&lt;p&gt;If you are brand new to coding, the term &lt;em&gt;variables&lt;/em&gt; might not immediately register. It&amp;rsquo;s important to understand what a variable is, as most coding languages do use them.&lt;/p&gt;&#xA;&lt;h3 id=&#34;so-what-are-variables&#34;&gt;So What Are Variables?&lt;/h3&gt;&#xA;&lt;p&gt;Variables are &lt;em&gt;containers that store values&lt;/em&gt;, such as:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Numbers:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integers (3)&lt;/li&gt;&#xA;&lt;li&gt;Float (3.0)&lt;/li&gt;&#xA;&lt;li&gt;String (&amp;ldquo;3&amp;rdquo;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Strings are plain text and are wrapped in parenthesis to tell Python to interpret the text as text only. &amp;ldquo;For example, this would be a string&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Boolean:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Fri, 02 May 2025 17:01:16 -0400</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h2 id=&#34;your-first-bit-of-code&#34;&gt;Your First Bit of Code&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Everyone&lt;/strong&gt; starts with the first program that was ever ran on a computer with a visual interface:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Hello, World!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The purpose of the program is to tell the Python interperter to show &amp;ldquo;Hello World&amp;rdquo; on the screen.&lt;/p&gt;&#xA;&lt;p&gt;Go to your terminal and type the following to check for Python:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you get an error, be sure to install it. On MacOS, I recommend HomeBrew, but you can use your package installer of choice. For HomeBrew, do the following:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
