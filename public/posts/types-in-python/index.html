@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Pure Functions | Ian Watkins
+            Types in Python | Ian Watkins
         </title>
         <meta
             name="description"
@@ -87,24 +87,43 @@
             <main>
 <article class="single-post">
     <header class="post-header">
-        <h1 class="post-title">Pure Functions</h1>
+        <h1 class="post-title">Types in Python</h1>
         <div class="post-meta">
-            <time datetime="2025-05-06T06:58:59-04:00">
-                May 6, 2025
+            <time datetime="2025-05-09T19:41:43-04:00">
+                May 9, 2025
             </time>
         </div>
     </header>
 
     <div class="post-content">
-        <h2 id="pure-functions">Pure Functions</h2>
-<p>Pure functions are functions that return the same result every time, assuming they receive the same inputs. This is made possible by writing the function to be self-contained, meaning it doesn&rsquo;t rely on variables outside it&rsquo;s local scope.</p>
-<p>Pure functions <em>do not</em> change the external state of the program. They are great for keeping clean code that is easy to debug, but you can&rsquo;t write an entire program of pure functions, because it wouldn&rsquo;t actually do anything.</p>
-<p>Pure functions also don&rsquo;t perform any I/O operations, such as reading from a disk, accessing the internet, or writing to the console.</p>
-<p>Example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">squared</span>(num):
-</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> num <span style="color:#99d1db;font-weight:bold">*</span> num
-</span></span></code></pre></div><p>The example above will always return a squared number, but has no side effects. It won&rsquo;t modify any variables outside its own scope, nor does it depend on variables from the global scope.</p>
-<p>Pure functions are an essential part of functional programming, but are also used in object-oriented programming as well. The difference is that functional programming is essentially centered around writing as many pure functions as possible.</p>
+        <h2 id="type">Type()</h2>
+<p>In Python you can check for what type of variable you are dealing with by using the type() formula. It takes one input and tells you what type of variable it is.</p>
+<p>See below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> num <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> num_str <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;3&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#99d1db">bool</span> <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> num_float <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">3.0</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#99d1db">type</span>(num)
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&lt;</span><span style="color:#ca9ee6">class</span> <span style="color:#e78284">&#39;</span><span style="color:#e5c890">int</span><span style="color:#a6d189">&#39;&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#99d1db">type</span>(num_str)
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&lt;</span><span style="color:#ca9ee6">class</span> <span style="color:#e78284">&#39;</span><span style="color:#e5c890">str</span><span style="color:#a6d189">&#39;&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#99d1db">type</span>(<span style="color:#99d1db">bool</span>)
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&lt;</span><span style="color:#ca9ee6">class</span> <span style="color:#e78284">&#39;</span><span style="color:#e5c890">bool</span><span style="color:#a6d189">&#39;&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;&gt;</span> <span style="color:#99d1db">type</span>(num_float)
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&lt;</span><span style="color:#ca9ee6">class</span> <span style="color:#e78284">&#39;</span><span style="color:#e5c890">float</span><span style="color:#a6d189">&#39;&gt;</span>
+</span></span></code></pre></div><hr>
+<p>In the example above, we see that the function returns what class the variable belongs to. This can be very useful if you are trying to debug existing code that has variables written somewhere other than where you are looking or trying to fix the bug.</p>
+<p>If you run your code to test it and get an error, Python will tell you if your variable isn&rsquo;t the right type for the job you&rsquo;re trying to accomplish. For instance, you may get a <code>TypeERROR</code> &lsquo;int&rsquo; object is not subscriptable if you were trying to treat an integer like a dictionary.</p>
+<p>Moral of the story, if you aren&rsquo;t certain what type of variable you are dealing with, run it through the type() function to find your answer.</p>
+<p><strong>Bonus Tip</strong></p>
+<p>You can convert variables to different types easily.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>num <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">3</span> <span style="color:#737994;font-style:italic"># this is an integer `int`</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">str</span>(num) <span style="color:#737994;font-style:italic"># this converts the integer to a string</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(num)
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">&gt;&gt;</span> <span style="color:#a6d189">&#34;3&#34;</span> <span style="color:#737994;font-style:italic"># printed as a string `str` because we converted it</span>
+</span></span></code></pre></div><p>This is super handy when you need to manipulate a variable to make it work for you rather than against you. For example, you may have a program that asks users for their age and for some reason they input it as a string, but your program is expecting an integer.</p>
 
     </div>
 
@@ -115,24 +134,18 @@
             
             <a href="/tags/python" class="tag">Python</a>
             
-            <a href="/tags/functional-programming" class="tag">Functional-Programming</a>
-            
-            <a href="/tags/oop" class="tag">OOP</a>
+            <a href="/tags/beginner" class="tag">Beginner</a>
             
         </div>
         
 
         <div class="post-navigation">
             
-            <a href="http://localhost:1313/posts/variables/" class="prev-post">
-                ← Variables
+            <a href="http://localhost:1313/posts/pure-functions/" class="prev-post">
+                ← Pure Functions
             </a>
             
 
-            
-            <a href="http://localhost:1313/posts/types-in-python/" class="next-post">
-                Types in Python →
-            </a>
             
         </div>
     </footer>
