@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Bookbot | Ian Watkins
+            Inkdrop Habit Tracker | Ian Watkins
         </title>
         <meta
             name="description"
@@ -87,59 +87,37 @@
             <main>
 <article class="single-post">
     <header class="post-header">
-        <h1 class="post-title">Bookbot</h1>
+        <h1 class="post-title">Inkdrop Habit Tracker</h1>
         <div class="post-meta">
-            <time datetime="2025-05-04T08:46:30-04:00">
-                May 4, 2025
+            <time datetime="2025-05-11T00:00:00Z">
+                May 11, 2025
             </time>
         </div>
     </header>
 
     <div class="post-content">
-        <h2 id="bookbot-project">Bookbot Project</h2>
-<p>The first real CLI project that I built was a tool which receives a .txt file as input and prints out some data. While this isn&rsquo;t the most impressive program ever built, it means a lot to me, because it was the project that proved to me <em>I can do this</em>.</p>
-<p>Below is an example, using Mary Shelley&rsquo;s <em>Frankenstein</em>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">============</span> <span style="color:#f2d5cf">BOOKBOT</span> <span style="color:#99d1db;font-weight:bold">============</span>
-</span></span><span style="display:flex;"><span>Analyzing book found at books/frankenstein.txt...
-</span></span><span style="display:flex;"><span>----------- Word Count ----------
-</span></span><span style="display:flex;"><span>Found <span style="color:#ef9f76">75767</span> total words
-</span></span><span style="display:flex;"><span>--------- Character Count -------
-</span></span><span style="display:flex;"><span>e: <span style="color:#ef9f76">44538</span>
-</span></span><span style="display:flex;"><span>t: <span style="color:#ef9f76">29493</span>
-</span></span><span style="display:flex;"><span>a: <span style="color:#ef9f76">25894</span>
-</span></span><span style="display:flex;"><span>o: <span style="color:#ef9f76">24494</span>
-</span></span><span style="display:flex;"><span>i: <span style="color:#ef9f76">23927</span>
-</span></span><span style="display:flex;"><span>n: <span style="color:#ef9f76">23643</span>
-</span></span><span style="display:flex;"><span>s: <span style="color:#ef9f76">20360</span>
-</span></span><span style="display:flex;"><span>r: <span style="color:#ef9f76">20079</span>
-</span></span><span style="display:flex;"><span>h: <span style="color:#ef9f76">19176</span>
-</span></span><span style="display:flex;"><span>d: <span style="color:#ef9f76">16318</span>
-</span></span><span style="display:flex;"><span>l: <span style="color:#ef9f76">12306</span>
-</span></span><span style="display:flex;"><span>m: <span style="color:#ef9f76">10206</span>
-</span></span><span style="display:flex;"><span>u: <span style="color:#ef9f76">10111</span>
-</span></span><span style="display:flex;"><span>c: <span style="color:#ef9f76">9011</span>
-</span></span><span style="display:flex;"><span>f: <span style="color:#ef9f76">8451</span>
-</span></span><span style="display:flex;"><span>y: <span style="color:#ef9f76">7756</span>
-</span></span><span style="display:flex;"><span>w: <span style="color:#ef9f76">7450</span>
-</span></span><span style="display:flex;"><span>p: <span style="color:#ef9f76">5952</span>
-</span></span><span style="display:flex;"><span>g: <span style="color:#ef9f76">5795</span>
-</span></span><span style="display:flex;"><span>b: <span style="color:#ef9f76">4868</span>
-</span></span><span style="display:flex;"><span>v: <span style="color:#ef9f76">3737</span>
-</span></span><span style="display:flex;"><span>k: <span style="color:#ef9f76">1661</span>
-</span></span><span style="display:flex;"><span>x: <span style="color:#ef9f76">691</span>
-</span></span><span style="display:flex;"><span>j: <span style="color:#ef9f76">497</span>
-</span></span><span style="display:flex;"><span>q: <span style="color:#ef9f76">325</span>
-</span></span><span style="display:flex;"><span>z: <span style="color:#ef9f76">235</span>
-</span></span><span style="display:flex;"><span>æ: <span style="color:#ef9f76">28</span>
-</span></span><span style="display:flex;"><span>â: <span style="color:#ef9f76">8</span>
-</span></span><span style="display:flex;"><span>ê: <span style="color:#ef9f76">7</span>
-</span></span><span style="display:flex;"><span>ë: <span style="color:#ef9f76">2</span>
-</span></span><span style="display:flex;"><span>ô: <span style="color:#f2d5cf">1</span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">=============</span> <span style="color:#f2d5cf">END</span> <span style="color:#99d1db;font-weight:bold">===============</span>
-</span></span></code></pre></div><hr>
-<p>I may come back to this later and add some other features. I&rsquo;ve considered adding additional file types to be analyzed and building in more data types to be returned.</p>
-<p>You can check out the project <a href="https://github.com/MistbornOne/bookbot">here</a>.</p>
+        <h2 id="inkdrop-habit-tracker">Inkdrop Habit Tracker</h2>
+<p>As a long time user of Notion, I fell in love with the idea of using my notes app to also keep track of my tasks and daily habits. After making the switch to <a href="https://www.inkdrop.app">Inkdrop</a> for my main notetaking application, I wanted to have the same capability - so I made this plugin!</p>
+<p>I hope this is useful to the community and it&rsquo;s my great pleasure to continue learning through contributing to an amazing tool.</p>
+<p>See my <a href="https://github.com/MistbornOne/inkdrop-habit-tracker">GitHub Repo</a> for more information.  If you&rsquo;re an Inkdrop user, please download and let me know if you have any feedback!</p>
+<hr>
+<h2 id="what-does-the-plugin-do">What Does The Plugin Do?</h2>
+<p>Track your daily habits right inside Inkdrop - without it being distracting or in your face.</p>
+<p>Check off habits, view current and longest streaks, and see your progress over time.</p>
+<hr>
+<p><img src="/images/habit-tracker.jpeg" alt="Screenshot of Habit Tracker"></p>
+<hr>
+<h2 id="-features">✨ Features</h2>
+<ul>
+<li>✅ Track habits with checkboxes</li>
+<li>🔥 See your current and max streaks</li>
+<li>➕ Add, edit, and delete habits easily</li>
+<li>💾 Everything saved to your Inkdrop config</li>
+</ul>
+<hr>
+<h2 id="-roadmap">📍 Roadmap</h2>
+<p>One planned future enhancement will be to add a graphical stats view that allows you to see your stats over time on a chart view.</p>
+<p><strong>This was a fun one to build!!!</strong> 💪🏼😎🔥</p>
 
     </div>
 
@@ -148,15 +126,11 @@
 
         <div class="post-navigation">
             
-            <a href="http://localhost:1313/projects/snake/" class="prev-post">
-                ← Snake Game
+            <a href="http://localhost:1313/projects/bookbot/" class="prev-post">
+                ← Bookbot
             </a>
             
 
-            
-            <a href="http://localhost:1313/projects/inkdrop-habit-tracker/" class="next-post">
-                Inkdrop Habit Tracker →
-            </a>
             
         </div>
     </footer>

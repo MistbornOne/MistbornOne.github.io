@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 May 2025 08:46:30 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inkdrop Habit Tracker</title>
+      <link>http://localhost:1313/projects/inkdrop-habit-tracker/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/inkdrop-habit-tracker/</guid>
+      <description>&lt;h2 id=&#34;inkdrop-habit-tracker&#34;&gt;Inkdrop Habit Tracker&lt;/h2&gt;&#xA;&lt;p&gt;As a long time user of Notion, I fell in love with the idea of using my notes app to also keep track of my tasks and daily habits. After making the switch to &lt;a href=&#34;https://www.inkdrop.app&#34;&gt;Inkdrop&lt;/a&gt; for my main notetaking application, I wanted to have the same capability - so I made this plugin!&lt;/p&gt;&#xA;&lt;p&gt;I hope this is useful to the community and it&amp;rsquo;s my great pleasure to continue learning through contributing to an amazing tool.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bookbot</title>
       <link>http://localhost:1313/projects/bookbot/</link>
