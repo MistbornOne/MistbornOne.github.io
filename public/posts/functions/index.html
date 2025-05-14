@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Tags | Ian Watkins
+            Functions | Ian Watkins
         </title>
         <meta
             name="description"
@@ -85,91 +85,70 @@
 
 
             <main>
-<div class="list-container">
-    <h1>Tags</h1>
-    
-    
-    <div class="posts-by-year">
-        <h2>2025</h2>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-13T20:16:42-04:00">
-                    May 13, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/python/">Python</a>
-            </h3>
-            <div class="post-summary">
-                
-            </div>
-            <a href="http://localhost:1313/tags/python/" class="read-more">Read more →</a>
-        </article>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-13T20:16:42-04:00">
-                    May 13, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/beginner/">Beginner</a>
-            </h3>
-            <div class="post-summary">
-                
-            </div>
-            <a href="http://localhost:1313/tags/beginner/" class="read-more">Read more →</a>
-        </article>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-06T06:58:59-04:00">
-                    May 6, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/oop/">OOP</a>
-            </h3>
-            <div class="post-summary">
-                
-            </div>
-            <a href="http://localhost:1313/tags/oop/" class="read-more">Read more →</a>
-        </article>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-06T06:58:59-04:00">
-                    May 6, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/functional-programming/">Functional-Programming</a>
-            </h3>
-            <div class="post-summary">
-                
-            </div>
-            <a href="http://localhost:1313/tags/functional-programming/" class="read-more">Read more →</a>
-        </article>
-        
-        <article class="post-item">
-            <div class="post-meta">
-                <time datetime="2025-05-02T20:40:33-04:00">
-                    May 2, 2025
-                </time>
-            </div>
-            <h3 class="post-title">
-                <a href="http://localhost:1313/tags/scripts/">Scripts</a>
-            </h3>
-            <div class="post-summary">
-                
-            </div>
-            <a href="http://localhost:1313/tags/scripts/" class="read-more">Read more →</a>
-        </article>
-        
+<article class="single-post">
+    <header class="post-header">
+        <h1 class="post-title">Functions</h1>
+        <div class="post-meta">
+            <time datetime="2025-05-13T20:16:42-04:00">
+                May 13, 2025
+            </time>
+        </div>
+    </header>
+
+    <div class="post-content">
+        <p><strong>What Are Functions?</strong></p>
+<p>Functions are blocks of code that perform a given task any time they are called.</p>
+<p>A function could process one action a single time and move on to the next block of code in the script, or it could iterate through itself multiple times (infinitely if you wrote it that way).</p>
+<p>In Python, your declare a function with the reserved keyword <code>def</code> - which <em>defines</em> the function.</p>
+<p>Sample function in Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">area</span>(length, height):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> length <span style="color:#99d1db;font-weight:bold">*</span> height
+</span></span></code></pre></div><p>In the simple example above, we define the function called area and give it two inputs, the length and height of an object. Then within the function, the indented text is what the function <em>actually does</em>. In this example it returns the value of length * height.</p>
+<p>This example wouldn&rsquo;t actually produce anything if called by itself. Instead, you&rsquo;d get an error that the function was expecting two arguments and none were given.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">area</span>(length, height):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> length <span style="color:#99d1db;font-weight:bold">*</span> height
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>length <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">10</span>
+</span></span><span style="display:flex;"><span>height <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">20</span>
+</span></span><span style="display:flex;"><span>rectangle_area <span style="color:#99d1db;font-weight:bold">=</span> area(length, height) <span style="color:#737994;font-style:italic"># Notice we are calling the function and giving it variables.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(rectangle_area)
+</span></span></code></pre></div><p>Now in that example, you would receive a real result if you executed the code in an interpreter.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>&gt; &gt; &gt; def area<span style="color:#99d1db;font-weight:bold">(</span>length, height<span style="color:#99d1db;font-weight:bold">)</span>:
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt;   <span style="color:#ca9ee6">return</span> length <span style="color:#8caaee">\*</span> height
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt;
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#f2d5cf">length</span> <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">10</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#f2d5cf">height</span> <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">20</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#f2d5cf">rectangle_area</span> <span style="color:#99d1db;font-weight:bold">=</span> area<span style="color:#99d1db;font-weight:bold">(</span>length, height<span style="color:#99d1db;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt;
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; print<span style="color:#99d1db;font-weight:bold">(</span>rectangle_area<span style="color:#99d1db;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#ef9f76">200</span>
+</span></span></code></pre></div>
     </div>
-    
-</div>
+
+    <footer class="post-footer">
+        
+        <div class="post-tags">
+            <strong>Tags:</strong>
+            
+            <a href="/tags/python" class="tag">Python</a>
+            
+            <a href="/tags/beginner" class="tag">Beginner</a>
+            
+        </div>
+        
+
+        <div class="post-navigation">
+            
+            <a href="http://localhost:1313/posts/types-in-python/" class="prev-post">
+                ← Types in Python
+            </a>
+            
+
+            
+        </div>
+    </footer>
+</article>
 </main>
 
             <footer>
