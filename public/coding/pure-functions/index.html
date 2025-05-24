@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Variables | Ian Watkins
+            Pure Functions | Ian Watkins
         </title>
         <meta
             name="description"
@@ -89,67 +89,24 @@
             <main>
 <article class="single-post">
     <header class="post-header">
-        <h1 class="post-title">Variables</h1>
+        <h1 class="post-title">Pure Functions</h1>
         <div class="post-meta">
-            <time datetime="2025-05-04T14:17:36-04:00">
-                May 4, 2025
+            <time datetime="2025-05-06T06:58:59-04:00">
+                May 6, 2025
             </time>
         </div>
     </header>
 
     <div class="post-content">
-        <h2 id="what-are-variables">What Are Variables?</h2>
-<p>If you are brand new to coding, the term <em>variables</em> might not immediately register. It&rsquo;s important to understand what a variable is, as most coding languages do use them.</p>
-<h3 id="so-what-are-variables">So What Are Variables?</h3>
-<p>Variables are <em>containers that store values</em>, such as:</p>
-<p><strong>Numbers:</strong></p>
-<ul>
-<li>Integers (3)</li>
-<li>Float (3.0)</li>
-<li>String (&ldquo;3&rdquo;)</li>
-</ul>
-<p><strong>Text:</strong></p>
-<ul>
-<li>Strings are plain text and are wrapped in parenthesis to tell Python to interpret the text as text only. &ldquo;For example, this would be a string&rdquo;</li>
-</ul>
-<p><strong>Boolean:</strong></p>
-<ul>
-<li>Boolean values are simply True or False</li>
-</ul>
-<p><strong>Sequences:</strong></p>
-<ul>
-<li>Lists [&ldquo;Bob&rdquo;, &ldquo;Mary&rdquo;, &ldquo;Tom&rdquo;]</li>
-<li>Tuples (1, &ldquo;hello&rdquo;, 3.14)</li>
-<li>Range is a type of variable that generates a sequence of numbers within a given range.</li>
-</ul>
-<p><strong>Mapping:</strong></p>
-<ul>
-<li>Dictionaries store data in pairs called &ldquo;key/value&rdquo; pairs.</li>
-</ul>
-<p><strong>Binary:</strong></p>
-<ul>
-<li>Bytes are immutable sequences of data (0&rsquo;s and 1&rsquo;s)</li>
-<li>Bytearrays are mutable (changeable) sequences of data</li>
-</ul>
-<p><strong>None Type:</strong></p>
-<ul>
-<li>None is a variable that represents the absence of a value.</li>
-</ul>
-<p>We will ig more into each of those types in subsequent posts, but for now the key takeaway is that a variable is a container that stores a value or set of values.</p>
-<p>Below is an example of <em>declaring</em> different variable types in Python:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span> <span style="color:#737994;font-style:italic">#the variable is name, the value is &#34;John&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span> <span style="color:#737994;font-style:italic">#the variable is age, the value is 30</span>
-</span></span><span style="display:flex;"><span>is_a_male <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">True</span> <span style="color:#737994;font-style:italic">#boolean variable is_a_male is set to True</span>
-</span></span></code></pre></div><p>Once these variables have been declared, Python will remember them and allow you to call them later, as long as they are either in the global scope or local scope you&rsquo;re calling them in (more on this later).</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(name, age)
-</span></span><span style="display:flex;"><span><span style="color:#737994;font-style:italic"># John, 30</span>
-</span></span></code></pre></div><p>Variables only allow alpha-numeric characters, must be a continuous string and may not include reserved keywords. They can begin with an underscore.</p>
-<p><strong>Best Practice</strong> is to use snake case when creating variables (IE snake_case), though some argue camel case (IE camelCase) is better.</p>
-<p>The name variable comes from the fact that the values being stored are mutable rather than being fixed. In other words, the value may <em>vary</em> or change.</p>
-<p>If you&rsquo;re brand new to coding, I hope this explanation gives a little clarity to the topic of what variables are. In the next post we will discuss some of the variable types in more detail.</p>
+        <h2 id="pure-functions">Pure Functions</h2>
+<p>Pure functions are functions that return the same result every time, assuming they receive the same inputs. This is made possible by writing the function to be self-contained, meaning it doesn&rsquo;t rely on variables outside it&rsquo;s local scope.</p>
+<p>Pure functions <em>do not</em> change the external state of the program. They are great for keeping clean code that is easy to debug, but you can&rsquo;t write an entire program of pure functions, because it wouldn&rsquo;t actually do anything.</p>
+<p>Pure functions also don&rsquo;t perform any I/O operations, such as reading from a disk, accessing the internet, or writing to the console.</p>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">squared</span>(num):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> num <span style="color:#99d1db;font-weight:bold">*</span> num
+</span></span></code></pre></div><p>The example above will always return a squared number, but has no side effects. It won&rsquo;t modify any variables outside its own scope, nor does it depend on variables from the global scope.</p>
+<p>Pure functions are an essential part of functional programming, but are also used in object-oriented programming as well. The difference is that functional programming is essentially centered around writing as many pure functions as possible.</p>
 
     </div>
 
@@ -160,21 +117,23 @@
             
             <a href="/tags/python" class="tag">Python</a>
             
-            <a href="/tags/beginner" class="tag">Beginner</a>
+            <a href="/tags/functional-programming" class="tag">Functional-Programming</a>
+            
+            <a href="/tags/oop" class="tag">OOP</a>
             
         </div>
         
 
         <div class="post-navigation">
             
-            <a href="http://localhost:1313/posts/hugo-script/" class="prev-post">
-                ← Hugo Script
+            <a href="http://localhost:1313/coding/variables/" class="prev-post">
+                ← Variables
             </a>
             
 
             
-            <a href="http://localhost:1313/posts/pure-functions/" class="next-post">
-                Pure Functions →
+            <a href="http://localhost:1313/coding/types-in-python/" class="next-post">
+                Types in Python →
             </a>
             
         </div>

@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Variables | Ian Watkins
+            Functions | Ian Watkins
         </title>
         <meta
             name="description"
@@ -89,68 +89,43 @@
             <main>
 <article class="single-post">
     <header class="post-header">
-        <h1 class="post-title">Variables</h1>
+        <h1 class="post-title">Functions</h1>
         <div class="post-meta">
-            <time datetime="2025-05-04T14:17:36-04:00">
-                May 4, 2025
+            <time datetime="2025-05-13T20:16:42-04:00">
+                May 13, 2025
             </time>
         </div>
     </header>
 
     <div class="post-content">
-        <h2 id="what-are-variables">What Are Variables?</h2>
-<p>If you are brand new to coding, the term <em>variables</em> might not immediately register. It&rsquo;s important to understand what a variable is, as most coding languages do use them.</p>
-<h3 id="so-what-are-variables">So What Are Variables?</h3>
-<p>Variables are <em>containers that store values</em>, such as:</p>
-<p><strong>Numbers:</strong></p>
-<ul>
-<li>Integers (3)</li>
-<li>Float (3.0)</li>
-<li>String (&ldquo;3&rdquo;)</li>
-</ul>
-<p><strong>Text:</strong></p>
-<ul>
-<li>Strings are plain text and are wrapped in parenthesis to tell Python to interpret the text as text only. &ldquo;For example, this would be a string&rdquo;</li>
-</ul>
-<p><strong>Boolean:</strong></p>
-<ul>
-<li>Boolean values are simply True or False</li>
-</ul>
-<p><strong>Sequences:</strong></p>
-<ul>
-<li>Lists [&ldquo;Bob&rdquo;, &ldquo;Mary&rdquo;, &ldquo;Tom&rdquo;]</li>
-<li>Tuples (1, &ldquo;hello&rdquo;, 3.14)</li>
-<li>Range is a type of variable that generates a sequence of numbers within a given range.</li>
-</ul>
-<p><strong>Mapping:</strong></p>
-<ul>
-<li>Dictionaries store data in pairs called &ldquo;key/value&rdquo; pairs.</li>
-</ul>
-<p><strong>Binary:</strong></p>
-<ul>
-<li>Bytes are immutable sequences of data (0&rsquo;s and 1&rsquo;s)</li>
-<li>Bytearrays are mutable (changeable) sequences of data</li>
-</ul>
-<p><strong>None Type:</strong></p>
-<ul>
-<li>None is a variable that represents the absence of a value.</li>
-</ul>
-<p>We will ig more into each of those types in subsequent posts, but for now the key takeaway is that a variable is a container that stores a value or set of values.</p>
-<p>Below is an example of <em>declaring</em> different variable types in Python:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span> <span style="color:#737994;font-style:italic">#the variable is name, the value is &#34;John&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span> <span style="color:#737994;font-style:italic">#the variable is age, the value is 30</span>
-</span></span><span style="display:flex;"><span>is_a_male <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">True</span> <span style="color:#737994;font-style:italic">#boolean variable is_a_male is set to True</span>
-</span></span></code></pre></div><p>Once these variables have been declared, Python will remember them and allow you to call them later, as long as they are either in the global scope or local scope you&rsquo;re calling them in (more on this later).</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span>
+        <p><strong>What Are Functions?</strong></p>
+<p>Functions are blocks of code that perform a given task any time they are called.</p>
+<p>A function could process one action a single time and move on to the next block of code in the script, or it could iterate through itself multiple times (infinitely if you wrote it that way).</p>
+<p>In Python, your declare a function with the reserved keyword <code>def</code> - which <em>defines</em> the function.</p>
+<p>Sample function in Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">area</span>(length, height):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> length <span style="color:#99d1db;font-weight:bold">*</span> height
+</span></span></code></pre></div><p>In the simple example above, we define the function called area and give it two inputs, the length and height of an object. Then within the function, the indented text is what the function <em>actually does</em>. In this example it returns the value of length * height.</p>
+<p>This example wouldn&rsquo;t actually produce anything if called by itself. Instead, you&rsquo;d get an error that the function was expecting two arguments and none were given.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">area</span>(length, height):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> length <span style="color:#99d1db;font-weight:bold">*</span> height
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(name, age)
-</span></span><span style="display:flex;"><span><span style="color:#737994;font-style:italic"># John, 30</span>
-</span></span></code></pre></div><p>Variables only allow alpha-numeric characters, must be a continuous string and may not include reserved keywords. They can begin with an underscore.</p>
-<p><strong>Best Practice</strong> is to use snake case when creating variables (IE snake_case), though some argue camel case (IE camelCase) is better.</p>
-<p>The name variable comes from the fact that the values being stored are mutable rather than being fixed. In other words, the value may <em>vary</em> or change.</p>
-<p>If you&rsquo;re brand new to coding, I hope this explanation gives a little clarity to the topic of what variables are. In the next post we will discuss some of the variable types in more detail.</p>
-
+</span></span><span style="display:flex;"><span>length <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">10</span>
+</span></span><span style="display:flex;"><span>height <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">20</span>
+</span></span><span style="display:flex;"><span>rectangle_area <span style="color:#99d1db;font-weight:bold">=</span> area(length, height) <span style="color:#737994;font-style:italic"># Notice we are calling the function and giving it variables.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(rectangle_area)
+</span></span></code></pre></div><p>Now in that example, you would receive a real result if you executed the code in an interpreter.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>&gt; &gt; &gt; def area<span style="color:#99d1db;font-weight:bold">(</span>length, height<span style="color:#99d1db;font-weight:bold">)</span>:
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt;   <span style="color:#ca9ee6">return</span> length <span style="color:#8caaee">\*</span> height
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt;
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#f2d5cf">length</span> <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">10</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#f2d5cf">height</span> <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">20</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#f2d5cf">rectangle_area</span> <span style="color:#99d1db;font-weight:bold">=</span> area<span style="color:#99d1db;font-weight:bold">(</span>length, height<span style="color:#99d1db;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt;
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; print<span style="color:#99d1db;font-weight:bold">(</span>rectangle_area<span style="color:#99d1db;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>&gt; &gt; &gt; <span style="color:#ef9f76">200</span>
+</span></span></code></pre></div>
     </div>
 
     <footer class="post-footer">
@@ -167,14 +142,14 @@
 
         <div class="post-navigation">
             
-            <a href="http://localhost:1313/posts/hugo-script/" class="prev-post">
-                ← Hugo Script
+            <a href="http://localhost:1313/coding/types-in-python/" class="prev-post">
+                ← Types in Python
             </a>
             
 
             
-            <a href="http://localhost:1313/posts/pure-functions/" class="next-post">
-                Pure Functions →
+            <a href="http://localhost:1313/coding/agentic-ai/" class="next-post">
+                Agentic AI →
             </a>
             
         </div>

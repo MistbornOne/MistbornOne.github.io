@@ -28,9 +28,9 @@ name = "Home"
 url = "/"
 weight = 10
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
+identifier = "coding"
+name = "Coding"
+url = "/coding/"
 weight = 20
 [[menu.main]]
 identifier = "projects"

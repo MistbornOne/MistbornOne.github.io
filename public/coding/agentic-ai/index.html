@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Variables | Ian Watkins
+            Agentic AI | Ian Watkins
         </title>
         <meta
             name="description"
@@ -89,67 +89,48 @@
             <main>
 <article class="single-post">
     <header class="post-header">
-        <h1 class="post-title">Variables</h1>
+        <h1 class="post-title">Agentic AI</h1>
         <div class="post-meta">
-            <time datetime="2025-05-04T14:17:36-04:00">
-                May 4, 2025
+            <time datetime="2025-05-22T07:07:03-04:00">
+                May 22, 2025
             </time>
         </div>
     </header>
 
     <div class="post-content">
-        <h2 id="what-are-variables">What Are Variables?</h2>
-<p>If you are brand new to coding, the term <em>variables</em> might not immediately register. It&rsquo;s important to understand what a variable is, as most coding languages do use them.</p>
-<h3 id="so-what-are-variables">So What Are Variables?</h3>
-<p>Variables are <em>containers that store values</em>, such as:</p>
-<p><strong>Numbers:</strong></p>
-<ul>
-<li>Integers (3)</li>
-<li>Float (3.0)</li>
-<li>String (&ldquo;3&rdquo;)</li>
-</ul>
-<p><strong>Text:</strong></p>
-<ul>
-<li>Strings are plain text and are wrapped in parenthesis to tell Python to interpret the text as text only. &ldquo;For example, this would be a string&rdquo;</li>
-</ul>
-<p><strong>Boolean:</strong></p>
-<ul>
-<li>Boolean values are simply True or False</li>
-</ul>
-<p><strong>Sequences:</strong></p>
-<ul>
-<li>Lists [&ldquo;Bob&rdquo;, &ldquo;Mary&rdquo;, &ldquo;Tom&rdquo;]</li>
-<li>Tuples (1, &ldquo;hello&rdquo;, 3.14)</li>
-<li>Range is a type of variable that generates a sequence of numbers within a given range.</li>
-</ul>
-<p><strong>Mapping:</strong></p>
-<ul>
-<li>Dictionaries store data in pairs called &ldquo;key/value&rdquo; pairs.</li>
-</ul>
-<p><strong>Binary:</strong></p>
-<ul>
-<li>Bytes are immutable sequences of data (0&rsquo;s and 1&rsquo;s)</li>
-<li>Bytearrays are mutable (changeable) sequences of data</li>
-</ul>
-<p><strong>None Type:</strong></p>
-<ul>
-<li>None is a variable that represents the absence of a value.</li>
-</ul>
-<p>We will ig more into each of those types in subsequent posts, but for now the key takeaway is that a variable is a container that stores a value or set of values.</p>
-<p>Below is an example of <em>declaring</em> different variable types in Python:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span> <span style="color:#737994;font-style:italic">#the variable is name, the value is &#34;John&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span> <span style="color:#737994;font-style:italic">#the variable is age, the value is 30</span>
-</span></span><span style="display:flex;"><span>is_a_male <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">True</span> <span style="color:#737994;font-style:italic">#boolean variable is_a_male is set to True</span>
-</span></span></code></pre></div><p>Once these variables have been declared, Python will remember them and allow you to call them later, as long as they are either in the global scope or local scope you&rsquo;re calling them in (more on this later).</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;John&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">30</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(name, age)
-</span></span><span style="display:flex;"><span><span style="color:#737994;font-style:italic"># John, 30</span>
-</span></span></code></pre></div><p>Variables only allow alpha-numeric characters, must be a continuous string and may not include reserved keywords. They can begin with an underscore.</p>
-<p><strong>Best Practice</strong> is to use snake case when creating variables (IE snake_case), though some argue camel case (IE camelCase) is better.</p>
-<p>The name variable comes from the fact that the values being stored are mutable rather than being fixed. In other words, the value may <em>vary</em> or change.</p>
-<p>If you&rsquo;re brand new to coding, I hope this explanation gives a little clarity to the topic of what variables are. In the next post we will discuss some of the variable types in more detail.</p>
+        <h2 id="agentic-ai">Agentic AI</h2>
+<p>Agentic AI is essentially giving AI a specific job that it will execute on a regular basis and giving it the autonomy to do so.</p>
+<p><strong>There are five main categories of agentic AI today:</strong></p>
+<ol>
+<li>Simple Reflex</li>
+<li>Model-Based Reflex</li>
+<li>Goal-Based</li>
+<li>Utility-Based</li>
+<li>Learning</li>
+</ol>
+<h3 id="simple-reflex-agents">Simple Reflex Agents</h3>
+<p>The most basic agentic AI models are <em>reactive</em> and are built to analyze an input from the environment then use condition based logic/rules to make a decision on what to do next. For instance, your thermostat has a sensor that evaluates the temperature of the air (environmental input) and checks it against the conditional rules (if the temp is above 72 degrees F, then turn on cooling until it reaches 72 degrees). Once it evaluates the data against the conditional logic, it performs an action.</p>
+<h3 id="model-based-reflex-agents">Model-Based Reflex Agents</h3>
+<p>These agents are still reactive in decision making, but are more advanced than the previous example. They also receive environmental data as inputs via sensors, but the way they evaluate the data is where the differences lie. They evaluate what the current state of the environment is, if that changes without agent action, and what change the agent&rsquo;s actions would cause. Then it runs this updated data through the conditional logic and makes the decision on next actions based on said data.</p>
+<p>An example of model-based reflex agents are robot vacuums. These machines have sensors that evaluate the evironment around them (the floor) and consider how clean or dirty it is. Will the current state change on it&rsquo;s own? How will it change if I act? The agent then looks at the if/then rules it is programmed with and makes the choice on what action to take. If you watch a robot vacuum move, then stop and spin for a second, then move&hellip; you&rsquo;ve witnessed model-based reflexive AI in action.</p>
+<h3 id="goal-based-agents">Goal-Based Agents</h3>
+<p>Goal-based agents are the first in our list that don&rsquo;t simply react to environmental inputs with a simple if/then logic. Instead, these agents have specific goals built in and the evaluation logic is computed based on these goals. In other words, instead of asking &ldquo;what action matches this condition?&rdquo;, but asks &ldquo;what action helps me acheive my goal?&rdquo; The fundamental difference is that goal based agents are not limited in actions they can take based solely on if/then logic, but which one best helps them acheive the goal.</p>
+<p>Self driving cars are an example of this type of agentic AI. If a self-driving vehicle is given an address as it&rsquo;s goal, then it will analyze the environment (where it is at currently vs the goal) and ask things like:</p>
+<ol>
+<li>&ldquo;If I turn left at the next intersection, will that help me reach my destination faster?&rdquo;</li>
+<li>&ldquo;If I continue straight, will that help me reach the goal faster?&rdquo;</li>
+<li>&ldquo;Will the interstate or this side street be faster?&rdquo;</li>
+</ol>
+<p>This logic is constantly being evaluated and then car then takes turns accordingly until it reaches the destination.</p>
+<h3 id="utility-based-agents">Utility-Based Agents</h3>
+<p>Utility-based agents build upon goal-based agents, but instead of solely evaluating what the goal is and accomplishing it as fast as possible, they consider the utility of their actions. In other words, will this action both satisfy my goal <em>and</em> do so in the most efficient manner possible?</p>
+<p>An example of this would be a package delivery drone. The goal is to deliver the package to a delivery address given. The utility considerations may be how much battery the drone currently has vs how much it would have after making the delivery. It would then decide the best route and course of action based on the utility of battery savings. After all, it wouldn&rsquo;t do to deliver the package and then not be able to make it back to the starting point.</p>
+<h3 id="learning-agents">Learning Agents</h3>
+<p>The most robust form of agentic AI doesn&rsquo;t just evaluate data from the environment and make decisions based off a goal. Learning agents include a feedback loop that allow them to evaluate previous decisions and learn from them. The agent has specific <em>learning</em> goals they wish to acheive and will store the knowledge from prior experience in memory to be used later as they advance towards the learning goal. Once the feedback loop and learning evaluation process has taken place, then the agent will take action.</p>
+<p>An example here would be an AI chess bot. The bot plays the game and stores all the moves taken and various outcomes in memory. When it wins or loses, it then has several data points to learn from. Next time the game is played, it will now enter the feedback loop and critically evaluate the data in memory, plus the environmental data and make decisions based on both. It will then store the new data in memory as well. This process repeats every time the agent plays the game until it becomes a chess expert.</p>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="https://www.youtube.com/watch?v=fXizBc03D7E&amp;list=TLPQMjEwNTIwMjX5Ee1WMrw-TA&amp;index=2">IBM Technology</a></p>
 
     </div>
 
@@ -158,24 +139,20 @@
         <div class="post-tags">
             <strong>Tags:</strong>
             
-            <a href="/tags/python" class="tag">Python</a>
+            <a href="/tags/ai" class="tag">AI</a>
             
-            <a href="/tags/beginner" class="tag">Beginner</a>
+            <a href="/tags/today-i-learned" class="tag">Today I Learned</a>
             
         </div>
         
 
         <div class="post-navigation">
             
-            <a href="http://localhost:1313/posts/hugo-script/" class="prev-post">
-                ← Hugo Script
+            <a href="http://localhost:1313/coding/functions/" class="prev-post">
+                ← Functions
             </a>
             
 
-            
-            <a href="http://localhost:1313/posts/pure-functions/" class="next-post">
-                Pure Functions →
-            </a>
             
         </div>
     </footer>
