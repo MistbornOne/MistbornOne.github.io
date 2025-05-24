@@ -18,7 +18,7 @@ email = "iankwatkins@gmail.com"
 avatar = "/images/headshot.jpg"
 logo = "/favicon.ico"
 enableDarkMode = true
-defaultTheme = "light"                                                                                                                                                                                                                                # or "light"
+defaultTheme = "light"                                                                                                                                                                                                                                 
 codeBlockCopyButton = true
 
 [menu]
@@ -37,6 +37,11 @@ identifier = "projects"
 name = "Projects"
 url = "/projects/"
 weight = 30
+[[menu.main]]
+identifier = "sales"
+name = "Sales"
+url = "/sales/"
+weight = 40
 
 
 [markup]

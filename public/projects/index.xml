@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 07:14:21 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better Tasks</title>
+      <link>http://localhost:1313/projects/better-tasks/</link>
+      <pubDate>Thu, 22 May 2025 07:14:21 -0400</pubDate>
+      <guid>http://localhost:1313/projects/better-tasks/</guid>
+      <description>&lt;h1 id=&#34;better-tasks-neovim-plugin&#34;&gt;Better Tasks Neovim Plugin&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Better Tasks&lt;/strong&gt; is a lightweight, modular and opinionated Neovim plugin for managing Markdown-based task lists across your notes, journals, or project files. It adds intuitive task management commands, persistent storage, status highlighting, and upcoming fuzzy-finding and popup UIs.&lt;/p&gt;&#xA;&lt;p&gt;As always, you can find out more about this &lt;a href=&#34;https://github.com/MistbornOne/better-tasks.nvim&#34;&gt;project&lt;/a&gt; and all my projects in my &lt;a href=&#34;https://github.com/MistbornOne&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-task-structure&#34;&gt;💡 Task Structure&lt;/h2&gt;&#xA;&lt;p&gt;As you can see below, the tasks can be formatted into a table-like structure (not truly a table due to markdown limitations) that allow you to quickly see your tasks at a glance and view them through the perspective of title, due date, category, or status.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Inkdrop Habit Tracker</title>
       <link>http://localhost:1313/projects/inkdrop-habit-tracker/</link>
