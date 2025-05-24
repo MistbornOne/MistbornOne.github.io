@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agentic AI</title>
-      <link>http://localhost:1313/coding/agentic-ai/</link>
+      <link>http://localhost:1313/posts/agentic-ai/</link>
       <pubDate>Thu, 22 May 2025 07:07:03 -0400</pubDate>
-      <guid>http://localhost:1313/coding/agentic-ai/</guid>
+      <guid>http://localhost:1313/posts/agentic-ai/</guid>
       <description>&lt;h2 id=&#34;agentic-ai&#34;&gt;Agentic AI&lt;/h2&gt;&#xA;&lt;p&gt;Agentic AI is essentially giving AI a specific job that it will execute on a regular basis and giving it the autonomy to do so.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;There are five main categories of agentic AI today:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Simple Reflex&lt;/li&gt;&#xA;&lt;li&gt;Model-Based Reflex&lt;/li&gt;&#xA;&lt;li&gt;Goal-Based&lt;/li&gt;&#xA;&lt;li&gt;Utility-Based&lt;/li&gt;&#xA;&lt;li&gt;Learning&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;simple-reflex-agents&#34;&gt;Simple Reflex Agents&lt;/h3&gt;&#xA;&lt;p&gt;The most basic agentic AI models are &lt;em&gt;reactive&lt;/em&gt; and are built to analyze an input from the environment then use condition based logic/rules to make a decision on what to do next. For instance, your thermostat has a sensor that evaluates the temperature of the air (environmental input) and checks it against the conditional rules (if the temp is above 72 degrees F, then turn on cooling until it reaches 72 degrees). Once it evaluates the data against the conditional logic, it performs an action.&lt;/p&gt;</description>
     </item>
   </channel>

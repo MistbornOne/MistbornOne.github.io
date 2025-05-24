@@ -44,13 +44,13 @@
     <loc>http://localhost:1313/tags/writing/</loc>
     <lastmod>2025-05-22T07:14:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/agentic-ai/</loc>
+    <loc>http://localhost:1313/posts/agentic-ai/</loc>
     <lastmod>2025-05-22T07:07:03-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-05-22T07:07:03-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-05-22T07:07:03-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/today-i-learned/</loc>
@@ -59,7 +59,7 @@
     <loc>http://localhost:1313/tags/beginner/</loc>
     <lastmod>2025-05-13T20:16:42-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/functions/</loc>
+    <loc>http://localhost:1313/posts/functions/</loc>
     <lastmod>2025-05-13T20:16:42-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
@@ -68,7 +68,7 @@
     <loc>http://localhost:1313/projects/inkdrop-habit-tracker/</loc>
     <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/types-in-python/</loc>
+    <loc>http://localhost:1313/posts/types-in-python/</loc>
     <lastmod>2025-05-09T19:41:43-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/functional-programming/</loc>
@@ -77,10 +77,10 @@
     <loc>http://localhost:1313/tags/oop/</loc>
     <lastmod>2025-05-06T06:58:59-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/pure-functions/</loc>
+    <loc>http://localhost:1313/posts/pure-functions/</loc>
     <lastmod>2025-05-06T06:58:59-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/variables/</loc>
+    <loc>http://localhost:1313/posts/variables/</loc>
     <lastmod>2025-05-04T14:17:36-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/bookbot/</loc>
@@ -89,7 +89,7 @@
     <loc>http://localhost:1313/projects/snake/</loc>
     <lastmod>2025-05-04T08:46:30-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/hugo-script/</loc>
+    <loc>http://localhost:1313/posts/hugo-script/</loc>
     <lastmod>2025-05-02T20:40:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/scripts/</loc>
@@ -104,10 +104,10 @@
     <loc>http://localhost:1313/projects/asteroids/</loc>
     <lastmod>2025-05-02T17:24:47-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/hello-world/</loc>
+    <loc>http://localhost:1313/posts/hello-world/</loc>
     <lastmod>2025-05-02T17:01:16-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/coding/welcome/</loc>
+    <loc>http://localhost:1313/posts/welcome/</loc>
     <lastmod>2025-05-02T15:45:52-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
