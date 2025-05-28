@@ -30,8 +30,6 @@ Tutor: Excellent observation!  How might a function being able to call itself be
 
 ```
 
----
-
 You can download the tool and use it in your own command line (terminal) by going to my [GitHub Repo](https://github.com/MistbornOne/code-tutor-ai/tree/main?tab=readme-ov-file) or by following the instructions below:
 
 ---
@@ -42,7 +40,7 @@ You can download the tool and use it in your own command line (terminal) by goin
 
 ### Requirements 📦
 
-- [Docker](https://www.docker.com/)
+- [Docker](https://www.docker.com/) (optional)
 - An [OpenAI API key](https://platform.openai.com/api-keys)
 
 ---
@@ -83,7 +81,7 @@ If you use Git to version control, make sure you add your .env to a .gitignore f
 
 ---
 
-### Alternative Install with Docker 🐳
+## Alternative Install with Docker 🐳
 
 ````bash
 git clone https://github.com/MistbornOne/code-tutor-ai.git```
