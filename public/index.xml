@@ -6,8 +6,22 @@
     <description>Recent content on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 May 2025 14:42:37 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 13:22:28 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAG</title>
+      <link>http://localhost:1313/posts/rag/</link>
+      <pubDate>Thu, 29 May 2025 13:22:28 -0400</pubDate>
+      <guid>http://localhost:1313/posts/rag/</guid>
+      <description>&lt;h1 id=&#34;what-is-rag&#34;&gt;What is RAG?&lt;/h1&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve been &lt;em&gt;trying&lt;/em&gt; to keep up with AI, there&amp;rsquo;s a good chance you&amp;rsquo;ve come across the term RAG. When I first learned heard the term, I wasn&amp;rsquo;t exactly sure what it meant form the context of the discussion.&lt;/p&gt;&#xA;&lt;p&gt;Retrieval-Augmented Generation (RAG) is a technique that enhances the accuracy of large language models (LLMs) by giving them a wider context window and including external (from the LLM&amp;rsquo;s database) knowledge sources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Tutor AI Agent</title>
+      <link>http://localhost:1313/projects/code-tutor-ai-agent/</link>
+      <pubDate>Wed, 28 May 2025 16:25:16 -0400</pubDate>
+      <guid>http://localhost:1313/projects/code-tutor-ai-agent/</guid>
+      <description>&lt;h1 id=&#34;code-tutor-ai-&#34;&gt;Code Tutor AI 🧙🏼‍♂️&lt;/h1&gt;&#xA;&lt;h2 id=&#34;an-ai-powered-interactive-cli-coding-tutor-built-with-openai-agent-sdk&#34;&gt;An AI-powered interactive CLI coding tutor built with OpenAI Agent SDK.&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Code Tutor&lt;/strong&gt; is built to allow you to &lt;em&gt;learn&lt;/em&gt; to code yourself rather than just vibe code your way to success. This AI agent is supportive and uses the &lt;strong&gt;Socractic method&lt;/strong&gt; to walk you, the coding student, through solving the problem on your own with guidance.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;🧠 &lt;strong&gt;Code tutor is built on the principle that we can use AI to accomplish great things, but we need to protect our ability to think critically and learn.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sales Mindset</title>
       <link>http://localhost:1313/sales/sales-mindset/</link>
