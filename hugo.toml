@@ -12,7 +12,7 @@ dir = ':cacheDir/images'
 [params]
 description = """Hey! 👋🏼 I'm the dad of 5 humans and 3 dogs who loves a good cup of coffee and an even better book. Follower of Jesus. Major nerd.  Sales executive. Tech geek.  BBQ enthusiast. This is where I share what I am learning as I go."""
 author = "Ian Watkins"
-terminal = "https://ianwatkins.netlify.app/"
+terminal = "https://ianwatkins.pro/"
 github = "https://github.com/MistbornOne"
 linkedin = "https://linkedin.com/in/ian-watkins-5000a712a/"
 email = "iankwatkins@gmail.com"
