@@ -63,6 +63,14 @@
         <div class="header-right">
             <div class="social-icons">
                 
+    <a href="https://ianwatkins.netlify.app/" target="_blank" rel="noopener noreferrer" title="Terminal Site">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 17l6-6-6-6M12 19h8" />
+        </svg>
+    </a>
+            
+                
                 <a href="https://github.com/MistbornOne" target="_blank" rel="noopener noreferrer" title="GitHub">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -97,6 +105,54 @@
     
     <div class="posts-by-year">
         <h2>2025</h2>
+        
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="2025-05-30T09:11:25-04:00">
+                    May 30, 2025
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/decorators-in-python/">Decorators in Python</a>
+            </h3>
+            <div class="post-summary">
+                <h2 id="python-decorators">Python Decorators</h2>
+<p>Decorators are a way we can use higher order functions to modify other functions. Typically they are used to wrap a function with another function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">hello</span>(name<span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;Ian&#34;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">def</span> <span style="color:#8caaee">greeting</span>(func):
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">def</span> <span style="color:#8caaee">wrapper</span>(<span style="color:#99d1db;font-weight:bold">*</span>args, <span style="color:#99d1db;font-weight:bold">**</span>kwargs):
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;A man is sitting at the bar, you go up and greet him.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> name <span style="color:#99d1db;font-weight:bold">==</span> <span style="color:#a6d189">&#34;Ian&#34;</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;My name is Ian, what&#39;s yours?&#34;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">else</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;My name is </span><span style="color:#a6d189">{</span>name<span style="color:#a6d189">}</span><span style="color:#a6d189">, what&#39;s yours?&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;The man glances your way momentarily, then moves to the other end of the bar.&#34;</span>)
+</span></span><span style="display:flex;"><span>            result <span style="color:#99d1db;font-weight:bold">=</span> func(<span style="color:#99d1db;font-weight:bold">*</span>args, <span style="color:#99d1db;font-weight:bold">**</span>kwargs)
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">return</span> result
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> wrapper
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> greeting
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8caaee;font-weight:bold">@hello</span>(<span style="color:#a6d189">&#34;Alice&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">bar_talk</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;You start a conversation about the weather with the bartender instead.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8caaee;font-weight:bold">@hello</span>()
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">another_chat</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;You shrug your shoulders and ask the bartender about the local sports team.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;=== First Interaction ===&#34;</span>)
+</span></span><span style="display:flex;"><span>bar_talk()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">=== Second Interaction ===&#34;</span>)
+</span></span><span style="display:flex;"><span>another_chat()
+</span></span></code></pre></div><p>In the example above, you would get the following print out:</p>
+            </div>
+            <a href="http://localhost:1313/posts/decorators-in-python/" class="read-more">Read more →</a>
+        </article>
         
         <article class="post-item">
             <div class="post-meta">
@@ -149,6 +205,19 @@
       <footer>
   <div class="social-links">
     
+    <a
+      href="https://ianwatkins.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Terminal Site"
+    >
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 17l6-6-6-6M12 19h8" />
+      </svg>
+    </a>
+     
     <a
       href="https://github.com/MistbornOne"
       target="_blank"

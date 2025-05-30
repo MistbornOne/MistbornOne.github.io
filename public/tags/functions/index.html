@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Categories | Ian Watkins
+      Functions | Ian Watkins
     </title>
     <meta
       name="description"
@@ -100,8 +100,61 @@
 
       <main>
 <div class="list-container">
-    <h1>Categories</h1>
+    <h1>Functions</h1>
     
+    
+    <div class="posts-by-year">
+        <h2>2025</h2>
+        
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="2025-05-30T09:11:25-04:00">
+                    May 30, 2025
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/decorators-in-python/">Decorators in Python</a>
+            </h3>
+            <div class="post-summary">
+                <h2 id="python-decorators">Python Decorators</h2>
+<p>Decorators are a way we can use higher order functions to modify other functions. Typically they are used to wrap a function with another function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">hello</span>(name<span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;Ian&#34;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">def</span> <span style="color:#8caaee">greeting</span>(func):
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">def</span> <span style="color:#8caaee">wrapper</span>(<span style="color:#99d1db;font-weight:bold">*</span>args, <span style="color:#99d1db;font-weight:bold">**</span>kwargs):
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;A man is sitting at the bar, you go up and greet him.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> name <span style="color:#99d1db;font-weight:bold">==</span> <span style="color:#a6d189">&#34;Ian&#34;</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;My name is Ian, what&#39;s yours?&#34;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">else</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;My name is </span><span style="color:#a6d189">{</span>name<span style="color:#a6d189">}</span><span style="color:#a6d189">, what&#39;s yours?&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;The man glances your way momentarily, then moves to the other end of the bar.&#34;</span>)
+</span></span><span style="display:flex;"><span>            result <span style="color:#99d1db;font-weight:bold">=</span> func(<span style="color:#99d1db;font-weight:bold">*</span>args, <span style="color:#99d1db;font-weight:bold">**</span>kwargs)
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">return</span> result
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> wrapper
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> greeting
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8caaee;font-weight:bold">@hello</span>(<span style="color:#a6d189">&#34;Alice&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">bar_talk</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;You start a conversation about the weather with the bartender instead.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8caaee;font-weight:bold">@hello</span>()
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">another_chat</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;You shrug your shoulders and ask the bartender about the local sports team.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;=== First Interaction ===&#34;</span>)
+</span></span><span style="display:flex;"><span>bar_talk()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">=== Second Interaction ===&#34;</span>)
+</span></span><span style="display:flex;"><span>another_chat()
+</span></span></code></pre></div><p>In the example above, you would get the following print out:</p>
+            </div>
+            <a href="http://localhost:1313/posts/decorators-in-python/" class="read-more">Read more →</a>
+        </article>
+        
+    </div>
     
 </div>
 </main>

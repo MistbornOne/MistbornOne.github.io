@@ -1,6 +1,19 @@
 <footer>
   <div class="social-links">
-    {{ if .Site.Params.github }}
+    {{ if .Site.Params.terminal }}
+    <a
+      href="{{ .Site.Params.terminal }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Terminal Site"
+    >
+      <!-- Terminal SVG Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+           viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 17l6-6-6-6M12 19h8" />
+      </svg>
+    </a>
+    {{ end }} {{ if .Site.Params.github }}
     <a
       href="{{ .Site.Params.github }}"
       target="_blank"
