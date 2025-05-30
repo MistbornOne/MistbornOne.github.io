@@ -24,7 +24,7 @@ For LLM developers, RAG allows the model to be "trained" in real time rather tha
 
 RAG is very useful for chatbots, [AI agents](https://ianwatkins.dev/posts/agentic-ai/), and other tools that require specific information to be as accurate and useful as possible.
 
-As someone who has built out internal chatbots for companies I've worked for, I know it can be a real pain to get up to date and accurate answers for internal users when the AI isn't using internal documents. This is wa prime use case for RAG. Instead of using a general LLM model to power the bot, you give the bot access to your internal knowledge base and tell it to use that as it's primary source of truth. Then, when an internal user asks the bot a question about an internal policy, let's say, the bot will look at the documents and return an answer based off what is written there.
+As someone who has built out internal chatbots for companies I've worked for, I know it can be a real pain to get up to date and accurate answers for internal users when the AI isn't using internal documents. This is a prime use case for RAG. Instead of using a general LLM model to power the bot, you give the bot access to your internal knowledge base and tell it to use that as it's primary source of truth. Then, when an internal user asks the bot a question about an internal policy, let's say, the bot will look at the documents and return an answer based off what is written there.
 
 ## Agents
 
