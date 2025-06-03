@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2025 16:25:16 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 06:38:45 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terminal Site</title>
+      <link>http://localhost:1313/projects/terminal-site/</link>
+      <pubDate>Tue, 03 Jun 2025 06:38:45 -0400</pubDate>
+      <guid>http://localhost:1313/projects/terminal-site/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/Terminal.jpg&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Those who code spend a &lt;em&gt;lot&lt;/em&gt; of time in the terminal.&lt;/strong&gt; I actually take my daily notes for work and life in the terminal in addition to any coding projects I work on in my spare time.&lt;/p&gt;&#xA;&lt;p&gt;When you become comfortable using it, the terminal becomes a magical place, where you can fly around like a wizard performing all sorts of tasks without ever needing to lift your fingers off the keyboard. Seriously&amp;hellip; who uses a mouse these days 😜.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Code Tutor AI Agent</title>
       <link>http://localhost:1313/projects/code-tutor-ai-agent/</link>
