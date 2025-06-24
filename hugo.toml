@@ -31,7 +31,7 @@ url = "/"
 weight = 10
 [[menu.main]]
 identifier = "posts"
-name = "Coding"
+name = "Posts"
 url = "/posts/"
 weight = 20
 [[menu.main]]
@@ -39,11 +39,7 @@ identifier = "projects"
 name = "Projects"
 url = "/projects/"
 weight = 30
-[[menu.main]]
-identifier = "sales"
-name = "Sales"
-url = "/sales/"
-weight = 40
+
 
 
 [markup]
