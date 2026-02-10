@@ -121,10 +121,11 @@
 <h2 id="an-ai-powered-interactive-cli-coding-tutor-built-with-openai-agent-sdk">An AI-powered interactive CLI coding tutor built with OpenAI Agent SDK.</h2>
 <p><strong>Code Tutor</strong> is built to allow you to <em>learn</em> to code yourself rather than just vibe code your way to success. This AI agent is supportive and uses the <strong>Socractic method</strong> to walk you, the coding student, through solving the problem on your own with guidance.</p>
 <blockquote>
-<p>🧠 <strong>Code tutor is built on the principle that we can use AI to accomplish great things, but we need to protect our ability to think critically and learn.</strong></p></blockquote>
+<p>🧠 <strong>Code tutor is built on the principle that we can use AI to accomplish great things, but we need to protect our ability to think critically and learn.</strong></p>
+</blockquote>
 <p>If you happen to get stuck and truly can&rsquo;t figure the problem out, you can ask Code Tutor to give you the full answer. It will first verify you want it to simply give you the answer and if you do verify, then it will do so.</p>
 <h3 id="example-session-">Example Session ✅</h3>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>What coding topic are we covering today?
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>What coding topic are we covering today?
 </span></span><span style="display:flex;"><span>Use <span style="color:#99d1db;font-weight:bold">[</span>q<span style="color:#99d1db;font-weight:bold">]</span> to quit
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>You: How <span style="color:#ca9ee6">do</span> I write a recursive <span style="color:#ca9ee6">function</span> in Python?
@@ -145,57 +146,58 @@
 </ul>
 <hr>
 <h3 id="installation-">Installation 🔧</h3>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/MistbornOne/code-tutor-ai.git<span style="color:#a6d189">```</span>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/MistbornOne/code-tutor-ai.git<span style="color:#a6d189">```</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6d189">```</span>bash
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">cd</span> code-tutor-ai
 </span></span></code></pre></div><h4 id="setup-openai-api-key-">Setup OpenAI API Key 🔐</h4>
 <p>You need to create a new .env file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp .env.example .env
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp .env.example .env
 </span></span></code></pre></div><p>Then open the .env file and paste in your API key:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f2d5cf">OPENAI_API_KEY</span><span style="color:#99d1db;font-weight:bold">=</span>sk-...
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f2d5cf">OPENAI_API_KEY</span><span style="color:#99d1db;font-weight:bold">=</span>sk-...
 </span></span></code></pre></div><p><strong>Never Share This! ❌</strong></p>
 <p>If you use Git to version control, make sure you add your .env to a .gitignore file <em>before</em> you do so.</p>
 <h4 id="run-the-code-tutor-">Run the Code Tutor! 🔥</h4>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./run.sh
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./run.sh
 </span></span></code></pre></div><hr>
 <h2 id="alternative-install-with-docker-">Alternative Install with Docker 🐳</h2>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/MistbornOne/code-tutor-ai.git<span style="color:#a6d189">```</span>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/MistbornOne/code-tutor-ai.git<span style="color:#a6d189">```</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6d189">```</span>bash
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">cd</span> code-tutor-ai
 </span></span></code></pre></div><h4 id="setup-openai-api-key--1">Setup OpenAI API Key 🔐</h4>
 <p>You need to create a new .env file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp .env.example .env
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp .env.example .env
 </span></span></code></pre></div><p>Then open the .env file and paste in your API key:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f2d5cf">OPENAI_API_KEY</span><span style="color:#99d1db;font-weight:bold">=</span>sk-...
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f2d5cf">OPENAI_API_KEY</span><span style="color:#99d1db;font-weight:bold">=</span>sk-...
 </span></span></code></pre></div><p><strong>Never Share This! ❌</strong></p>
 <p>If you use Git to version control, make sure you add your .env to a .gitignore file <em>before</em> you do so.</p>
 <h4 id="build-docker-image">Build Docker Image</h4>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -t codetutor .
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -t codetutor .
 </span></span></code></pre></div><h4 id="run-the-code-tutor-with-docker-">Run the Code Tutor with Docker! 🔥</h4>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -it --rm <span style="color:#8caaee">\
-</span></span></span><span style="display:flex;"><span><span style="color:#8caaee"></span>  --env-file .env <span style="color:#8caaee">\
-</span></span></span><span style="display:flex;"><span><span style="color:#8caaee"></span>  -v ~/Documents/conversations:/logs <span style="color:#8caaee">\
-</span></span></span><span style="display:flex;"><span><span style="color:#8caaee"></span>  codetutor
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -it --rm <span style="color:#8caaee">\
+</span></span></span><span style="display:flex;"><span>  --env-file .env <span style="color:#8caaee">\
+</span></span></span><span style="display:flex;"><span>  -v ~/Documents/conversations:/logs <span style="color:#8caaee">\
+</span></span></span><span style="display:flex;"><span>  codetutor
 </span></span></code></pre></div><p><strong>What this does:</strong></p>
 <p><code>--env-file .env</code> loads your OpenAI API key</p>
 <p><code>-v ~/Documents/conversations:/logs</code> mounts your conversation log folder</p>
 <p><code>codetutor</code> is the name of the image you built (or pulled)</p>
 <blockquote>
-<p>💡 Make sure the <code>.env</code> file exists in your current directory.</p></blockquote>
+<p>💡 Make sure the <code>.env</code> file exists in your current directory.</p>
+</blockquote>
 <hr>
 <h2 id="change-ai-model-">Change AI Model 🔄</h2>
 <p>You will be prompted on first run to choose a model, which will persist until you force a change with the command below:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./run.sh --change-model
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./run.sh --change-model
 </span></span></code></pre></div><p>Or</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -it --rm <span style="color:#8caaee">\
-</span></span></span><span style="display:flex;"><span><span style="color:#8caaee"></span>-e <span style="color:#f2d5cf">OPENAI_API_KEY</span><span style="color:#99d1db;font-weight:bold">=</span>sk... <span style="color:#8caaee">\
-</span></span></span><span style="display:flex;"><span><span style="color:#8caaee"></span>codetutor --change-model
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -it --rm <span style="color:#8caaee">\
+</span></span></span><span style="display:flex;"><span>-e <span style="color:#f2d5cf">OPENAI_API_KEY</span><span style="color:#99d1db;font-weight:bold">=</span>sk... <span style="color:#8caaee">\
+</span></span></span><span style="display:flex;"><span>codetutor --change-model
 </span></span></code></pre></div><hr>
 <h3 id="saving-sessions-">Saving Sessions 📝</h3>
 <p>When you quit a session with <code>q</code> or <code>exit</code>, your full conversation is saved to:</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conversations/session_YYYY-MM-DD_HH-MM-SS-topic-we-discussed.md
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conversations/session_YYYY-MM-DD_HH-MM-SS-topic-we-discussed.md
 </span></span></code></pre></div><p>This lets you review past sessions, reflect, or build a study journal.</p>
 <p>I hope this is a useful tool for many!!!</p>
 
@@ -318,7 +320,7 @@
   </div>
 
   <div class="copyright">
-    &copy; 2025 Ian Watkins. All rights reserved.
+    &copy; 2026 Ian Watkins. All rights reserved.
   </div>
 
   
