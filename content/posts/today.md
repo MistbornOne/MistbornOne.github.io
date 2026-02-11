@@ -1,7 +1,7 @@
 +++
 date = '2026-02-10T08:15:26-05:00'
 draft = false
-title = 'Today is All We Have'
+title = 'All We Have Is Today'
 tags = ['Mindset', 'Philosophy', 'Mindfulness', 'Reading']
 +++
 
