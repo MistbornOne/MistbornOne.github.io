@@ -1,4 +1,8 @@
-+++ date = '2026-04-30T07:07:03-04:00' draft = false title = 'You-Should-Self-Educate' tags = ['Growth', 'Mindset', 'Philosophy', 'Education', 'Learning', 'Career'] +++
++++
+date = '2026-04-30T07:07:03-04:00'
+title = 'You-Should-Self-Educate'
+tags = ['Growth', 'Mindset', 'Philosophy', 'Education', 'Learning', 'Career']
++++
 
 **Have you ever thought about going back to get a degree in `your topic here`?**
 
