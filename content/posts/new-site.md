@@ -5,6 +5,6 @@ title = 'New Site'
 tags = ['Writing', 'Blog', 'Coding']
 +++
 
-In case you missed it, I've been blogging at <a href="https://iankwatkins.com" target="_blank" rel="noopener">Meditations and Marginalia</a>.  I've started using that more than this site for various reasons, but I may change my mind, depending on how things go in the future.  I was having some issues with GitHub Pages, but that seems to be resolved now.
+In case you missed it, I've been blogging at {{< newtab url="https://iankwatkins.com" >}}Meditations and Marginalia{{< /newtab >}}.  I've started using that more than this site for various reasons, but I may change my mind, depending on how things go in the future.  I was having some issues with GitHub Pages, but that seems to be resolved now.
 
 Moral of the story, check out the new site if you happen to stumble on this page.
