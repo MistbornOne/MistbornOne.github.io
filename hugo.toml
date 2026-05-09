@@ -1,5 +1,5 @@
 baseURL = 'https://ianwatkins.dev/'
-languageCode= 'en-us'
+languageLocale= 'en-us'
 title = 'Ian Watkins'
 theme = 'main'
 enableRobotsTXT = true
