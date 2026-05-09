@@ -5,6 +5,14 @@ theme = 'main'
 enableRobotsTXT = true
 enableEmoji = true
 
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[services]
+    [services.rss]
+      limit = -1
+
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
