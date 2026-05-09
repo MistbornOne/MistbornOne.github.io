@@ -115,12 +115,120 @@
         
         <article class="post-item">
             <div class="post-meta">
+                <time datetime="2026-05-09T13:54:07-04:00">
+                    May 9, 2026
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/python-in-30-days-day-one/">Python in 30 Days - Day 1</a>
+            </h3>
+            <div class="post-summary">
+                <p>It&rsquo;s been a while since I&rsquo;ve heavily invested time into learning Python and I thought I&rsquo;d do a refresher course, using Claude AI to help guide mea s an experiment.  I decided to have Claude quiz me on what I know already in ten questions and build a 30 day course from there.</p>
+<p>I passed the ten questions with flying colors and Claude said that my theoretical knowledge is excellent, so it suggested we get straight into functions and scope for day one.</p>
+            </div>
+            <a href="http://localhost:1313/posts/python-in-30-days-day-one/" class="read-more">Read more →</a>
+        </article>
+        
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="2026-05-03T06:48:18-04:00">
+                    May 3, 2026
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/python-fun/">Python Fun</a>
+            </h3>
+            <div class="post-summary">
+                <p>I recently started messing with Python again and saw a challenge on a practice website.  For context, I haven&rsquo;t written any Python in a bit, so I wanted to scratch the itch and keep my knowledge alive.</p>
+<p>The challenge was to create a program that asks for user input and does some math with their age to calculate what year they&rsquo;d turn 100.</p>
+<p>Here&rsquo;s what I came up with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>current_year <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">2026</span>
+</span></span><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>yourage <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">main</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;Hello! What&#39;s your name?&#34;</span>)
+</span></span><span style="display:flex;"><span>    name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db">input</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">And how old are you, </span><span style="color:#a6d189">{</span>name<span style="color:#a6d189">}</span><span style="color:#a6d189">?&#34;</span>)
+</span></span><span style="display:flex;"><span>    age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db">int</span>(<span style="color:#99d1db">input</span>())
+</span></span><span style="display:flex;"><span>    yourage <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db">int</span>(age)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> name, yourage
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">hundred</span>(yourage, current_year):
+</span></span><span style="display:flex;"><span>    yearstohundo <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">100</span> <span style="color:#99d1db;font-weight:bold">-</span> yourage
+</span></span><span style="display:flex;"><span>    yearwillbe <span style="color:#99d1db;font-weight:bold">=</span> yearstohundo <span style="color:#99d1db;font-weight:bold">+</span> current_year
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">You will turn 100 in </span><span style="color:#a6d189">{</span>yearwillbe<span style="color:#a6d189">}</span><span style="color:#a6d189">!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>name, yourage <span style="color:#99d1db;font-weight:bold">=</span> main()
+</span></span><span style="display:flex;"><span>hundred(yourage, current_year)
+</span></span></code></pre></div><p>If you run that program in the terminal you will get (regular text is my answers):</p>
+            </div>
+            <a href="http://localhost:1313/posts/python-fun/" class="read-more">Read more →</a>
+        </article>
+        
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="2026-05-01T08:42:52-04:00">
+                    May 1, 2026
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/claude-code/">Claude Code</a>
+            </h3>
+            <div class="post-summary">
+                <p>It&rsquo;s been about a year since I last tried to &ldquo;vibe code&rdquo; and I used the normal Claude LLM to do so.  The experience was okay, but frustrating.  When using the standard chat interface, you have to be very specific about what you&rsquo;re feeding the chat and make sure that you keep the context window fairly short, because eventually the tool will start hallucinating more and more as you go on.</p>
+            </div>
+            <a href="http://localhost:1313/posts/claude-code/" class="read-more">Read more →</a>
+        </article>
+        
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="2026-04-30T20:03:39-04:00">
+                    April 30, 2026
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/new-site/">New Site</a>
+            </h3>
+            <div class="post-summary">
+                <p>In case you missed it, I&rsquo;ve been blogging at <a href="https://iankwatkins.com" target="_blank" rel="noopener">Meditations and Marginalia</a>.  I&rsquo;ve started using that more than this site for various reasons, but I may change my mind, depending on how things go in the future.  I was having some issues with GitHub Pages, but that seems to be resolved now.</p>
+<p>Moral of the story, check out the new site if you happen to stumble on this page.</p>
+            </div>
+            <a href="http://localhost:1313/posts/new-site/" class="read-more">Read more →</a>
+        </article>
+        
+        <article class="post-item">
+            <div class="post-meta">
+                <time datetime="2026-04-30T07:07:03-04:00">
+                    April 30, 2026
+                </time>
+            </div>
+            <h3 class="post-title">
+                <a href="http://localhost:1313/posts/self-educate/">You-Should-Self-Educate</a>
+            </h3>
+            <div class="post-summary">
+                <p><strong>Have you ever thought about going back to get a degree in <code>your topic here</code>?</strong></p>
+<p>I have. Many times.</p>
+<p>Yet, I have never been able to personally justify spending tens of thousands of dollars to get a formal degree that may or may not provide a return on that investment. I signed up to do an MBA program several years ago with the University of Illinois, but ended up never taking a single class when I found out that most graduates with that degree don’t make significantly more than their non-MBA degree holding peers.</p>
+            </div>
+            <a href="http://localhost:1313/posts/self-educate/" class="read-more">Read more →</a>
+        </article>
+        
+        <article class="post-item">
+            <div class="post-meta">
                 <time datetime="2026-02-10T08:15:26-05:00">
                     February 10, 2026
                 </time>
             </div>
             <h3 class="post-title">
-                <a href="http://localhost:1313/posts/today/">Today is All We Have</a>
+                <a href="http://localhost:1313/posts/today/">All We Have Is Today</a>
             </h3>
             <div class="post-summary">
                 <p>I recently read the book <a href="https://amzn.to/4c4RQ5l">The Courage to Be Disliked</a> by Ichiro Kishimi and Fumitake Koga. If you are unfamiliar, it is an overview of Adlerian Psychology, also known as Individual Psychology.</p>

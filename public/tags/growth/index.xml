@@ -6,8 +6,22 @@
     <description>Recent content in Growth on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 May 2025 14:42:37 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 13:54:07 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/growth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python in 30 Days - Day 1</title>
+      <link>http://localhost:1313/posts/python-in-30-days-day-one/</link>
+      <pubDate>Sat, 09 May 2026 13:54:07 -0400</pubDate>
+      <guid>http://localhost:1313/posts/python-in-30-days-day-one/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve heavily invested time into learning Python and I thought I&amp;rsquo;d do a refresher course, using Claude AI to help guide mea s an experiment.  I decided to have Claude quiz me on what I know already in ten questions and build a 30 day course from there.&lt;/p&gt;&#xA;&lt;p&gt;I passed the ten questions with flying colors and Claude said that my theoretical knowledge is excellent, so it suggested we get straight into functions and scope for day one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>You-Should-Self-Educate</title>
+      <link>http://localhost:1313/posts/self-educate/</link>
+      <pubDate>Thu, 30 Apr 2026 07:07:03 -0400</pubDate>
+      <guid>http://localhost:1313/posts/self-educate/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Have you ever thought about going back to get a degree in &lt;code&gt;your topic here&lt;/code&gt;?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have. Many times.&lt;/p&gt;&#xA;&lt;p&gt;Yet, I have never been able to personally justify spending tens of thousands of dollars to get a formal degree that may or may not provide a return on that investment. I signed up to do an MBA program several years ago with the University of Illinois, but ended up never taking a single class when I found out that most graduates with that degree don’t make significantly more than their non-MBA degree holding peers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sales Mindset</title>
       <link>http://localhost:1313/posts/sales-mindset/</link>

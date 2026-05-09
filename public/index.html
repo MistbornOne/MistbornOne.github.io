@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.155.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.161.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
@@ -78,6 +78,13 @@
                     </svg>
                 </a>
                 
+<a href="https://iankwatkins.com/" target="_blank" rel="noopener noreferrer" title="Meditations & Marginalia">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8 12a4 4 0 1 1 8 0 4 4 0 0 0 4 4H8a4 4 0 0 1-4-4 4 4 0 0 1 4-4z" />
+        <circle cx="8" cy="19" r="1.5" stroke="currentColor" fill="none" />
+        <circle cx="11" cy="21.5" r="1" stroke="currentColor" fill="none" />
+    </svg>
+</a>
                 
 <a href="https://ianwatkinsfiction.netlify.app/" target="_blank" rel="noopener noreferrer" title="Story">
     
@@ -125,118 +132,110 @@
         
         <article class="post-item">
             <div class="post-meta">
-                <time datetime="2026-02-10T08:15:26-05:00">
-                    February 10, 2026
+                <time datetime="2026-05-09T13:54:07-04:00">
+                    May 9, 2026
                 </time>
             </div>
             <h3 class="post-title">
-                <a href="http://localhost:1313/posts/today/">Today is All We Have</a>
+                <a href="http://localhost:1313/posts/python-in-30-days-day-one/">Python in 30 Days - Day 1</a>
             </h3>
             <div class="post-summary">
-                <p>I recently read the book <a href="https://amzn.to/4c4RQ5l">The Courage to Be Disliked</a> by Ichiro Kishimi and Fumitake Koga. If you are unfamiliar, it is an overview of Adlerian Psychology, also known as Individual Psychology.</p>
-<p>I&rsquo;ll admit that I had never heard of Alfred Adler or the psychology he was a proponent of, but I am glad that I gave this book a read. Unlike many psychology or self-help books, this one is written in the form of a narrative dialogue between a student and a mentor, which makes it very easy to read.</p>
+                <p>It&rsquo;s been a while since I&rsquo;ve heavily invested time into learning Python and I thought I&rsquo;d do a refresher course, using Claude AI to help guide mea s an experiment.  I decided to have Claude quiz me on what I know already in ten questions and build a 30 day course from there.</p>
+<p>I passed the ten questions with flying colors and Claude said that my theoretical knowledge is excellent, so it suggested we get straight into functions and scope for day one.</p>
             </div>
-            <a href="http://localhost:1313/posts/today/" class="read-more">Read more →</a>
+            <a href="http://localhost:1313/posts/python-in-30-days-day-one/" class="read-more">Read more →</a>
         </article>
         
         <article class="post-item">
             <div class="post-meta">
-                <time datetime="2025-06-24T07:15:30-04:00">
-                    June 24, 2025
+                <time datetime="2026-05-03T06:48:18-04:00">
+                    May 3, 2026
                 </time>
             </div>
             <h3 class="post-title">
-                <a href="http://localhost:1313/posts/steady/">Steady</a>
+                <a href="http://localhost:1313/posts/python-fun/">Python Fun</a>
             </h3>
             <div class="post-summary">
-                <h3 id="how-do-you-react-when-difficult-circumstances-arise">How do you react when difficult circumstances arise?</h3>
-<p>Life isn&rsquo;t always fair. It&rsquo;s not easy. Difficult circumstances will arise for all of us from time to time. The question is how will you choose to respond during tough times?</p>
-<p>It is tempting to give into our emotional response and allow that to dictate how we react. This, however, is not good. Emotions are fleeting and driven by hormones flooding your body. They are indifferent to reality outside your current circumstance. They have no perspective.</p>
+                <p>I recently started messing with Python again and saw a challenge on a practice website.  For context, I haven&rsquo;t written any Python in a bit, so I wanted to scratch the itch and keep my knowledge alive.</p>
+<p>The challenge was to create a program that asks for user input and does some math with their age to calculate what year they&rsquo;d turn 100.</p>
+<p>Here&rsquo;s what I came up with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>current_year <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">2026</span>
+</span></span><span style="display:flex;"><span>name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#a6d189">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>yourage <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">main</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;Hello! What&#39;s your name?&#34;</span>)
+</span></span><span style="display:flex;"><span>    name <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db">input</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">And how old are you, </span><span style="color:#a6d189">{</span>name<span style="color:#a6d189">}</span><span style="color:#a6d189">?&#34;</span>)
+</span></span><span style="display:flex;"><span>    age <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db">int</span>(<span style="color:#99d1db">input</span>())
+</span></span><span style="display:flex;"><span>    yourage <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db">int</span>(age)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> name, yourage
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">hundred</span>(yourage, current_year):
+</span></span><span style="display:flex;"><span>    yearstohundo <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#ef9f76">100</span> <span style="color:#99d1db;font-weight:bold">-</span> yourage
+</span></span><span style="display:flex;"><span>    yearwillbe <span style="color:#99d1db;font-weight:bold">=</span> yearstohundo <span style="color:#99d1db;font-weight:bold">+</span> current_year
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">You will turn 100 in </span><span style="color:#a6d189">{</span>yearwillbe<span style="color:#a6d189">}</span><span style="color:#a6d189">!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>name, yourage <span style="color:#99d1db;font-weight:bold">=</span> main()
+</span></span><span style="display:flex;"><span>hundred(yourage, current_year)
+</span></span></code></pre></div><p>If you run that program in the terminal you will get (regular text is my answers):</p>
             </div>
-            <a href="http://localhost:1313/posts/steady/" class="read-more">Read more →</a>
+            <a href="http://localhost:1313/posts/python-fun/" class="read-more">Read more →</a>
         </article>
         
         <article class="post-item">
             <div class="post-meta">
-                <time datetime="2025-06-04T09:10:31-04:00">
-                    June 4, 2025
+                <time datetime="2026-05-01T08:42:52-04:00">
+                    May 1, 2026
                 </time>
             </div>
             <h3 class="post-title">
-                <a href="http://localhost:1313/posts/show-up-daily/">Sales Success Is Boring 😴</a>
+                <a href="http://localhost:1313/posts/claude-code/">Claude Code</a>
             </h3>
             <div class="post-summary">
-                <h1 id="the-boring-path-to-sales-success">The Boring Path to Sales Success</h1>
-<p>Ask any top sales performer the secret to their success, and chances are, you won’t get a flashy answer. You won’t hear about a secret script or a viral campaign or some once-in-a-lifetime pitch that changed everything. What you’ll hear — if they’re being honest — is something <em>much simpler</em>, and far less exciting:</p>
-<blockquote>
-<p>💡<strong>Sales Success Comes Down To Consistency, Discipline, And A Commitment To The Basics.</strong></p>
+                <p>It&rsquo;s been about a year since I last tried to &ldquo;vibe code&rdquo; and I used the normal Claude LLM to do so.  The experience was okay, but frustrating.  When using the standard chat interface, you have to be very specific about what you&rsquo;re feeding the chat and make sure that you keep the context window fairly short, because eventually the tool will start hallucinating more and more as you go on.</p>
             </div>
-            <a href="http://localhost:1313/posts/show-up-daily/" class="read-more">Read more →</a>
+            <a href="http://localhost:1313/posts/claude-code/" class="read-more">Read more →</a>
         </article>
         
         <article class="post-item">
             <div class="post-meta">
-                <time datetime="2025-05-30T09:11:25-04:00">
-                    May 30, 2025
+                <time datetime="2026-04-30T20:03:39-04:00">
+                    April 30, 2026
                 </time>
             </div>
             <h3 class="post-title">
-                <a href="http://localhost:1313/posts/decorators-in-python/">Decorators in Python</a>
+                <a href="http://localhost:1313/posts/new-site/">New Site</a>
             </h3>
             <div class="post-summary">
-                <h2 id="python-decorators">Python Decorators</h2>
-<p>Decorators are a way we can use higher order functions to modify other functions. Typically they are used to wrap a function with another function.</p>
-<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">hello</span>(name<span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;Ian&#34;</span>):
-</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">def</span> <span style="color:#8caaee">greeting</span>(func):
-</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">def</span> <span style="color:#8caaee">wrapper</span>(<span style="color:#99d1db;font-weight:bold">*</span>args, <span style="color:#99d1db;font-weight:bold">**</span>kwargs):
-</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;A man is sitting at the bar, you go up and greet him.&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> name <span style="color:#99d1db;font-weight:bold">==</span> <span style="color:#a6d189">&#34;Ian&#34;</span>:
-</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;My name is Ian, what&#39;s yours?&#34;</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">else</span>:
-</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">print</span>(<span style="color:#e78284">f</span><span style="color:#a6d189">&#34;My name is </span><span style="color:#a6d189">{</span>name<span style="color:#a6d189">}</span><span style="color:#a6d189">, what&#39;s yours?&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;The man glances your way momentarily, then moves to the other end of the bar.&#34;</span>)
-</span></span><span style="display:flex;"><span>            result <span style="color:#99d1db;font-weight:bold">=</span> func(<span style="color:#99d1db;font-weight:bold">*</span>args, <span style="color:#99d1db;font-weight:bold">**</span>kwargs)
-</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">return</span> result
-</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> wrapper
-</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> greeting
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#8caaee;font-weight:bold">@hello</span>(<span style="color:#a6d189">&#34;Alice&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">bar_talk</span>():
-</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;You start a conversation about the weather with the bartender instead.&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#8caaee;font-weight:bold">@hello</span>()
-</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">def</span> <span style="color:#8caaee">another_chat</span>():
-</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;You shrug your shoulders and ask the bartender about the local sports team.&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;=== First Interaction ===&#34;</span>)
-</span></span><span style="display:flex;"><span>bar_talk()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#99d1db">print</span>(<span style="color:#a6d189">&#34;</span><span style="color:#8caaee">\n</span><span style="color:#a6d189">=== Second Interaction ===&#34;</span>)
-</span></span><span style="display:flex;"><span>another_chat()
-</span></span></code></pre></div><p>In the example above, you would get the following print out:</p>
+                <p>In case you missed it, I&rsquo;ve been blogging at <a href="https://iankwatkins.com" target="_blank" rel="noopener">Meditations and Marginalia</a>.  I&rsquo;ve started using that more than this site for various reasons, but I may change my mind, depending on how things go in the future.  I was having some issues with GitHub Pages, but that seems to be resolved now.</p>
+<p>Moral of the story, check out the new site if you happen to stumble on this page.</p>
             </div>
-            <a href="http://localhost:1313/posts/decorators-in-python/" class="read-more">Read more →</a>
+            <a href="http://localhost:1313/posts/new-site/" class="read-more">Read more →</a>
         </article>
         
         <article class="post-item">
             <div class="post-meta">
-                <time datetime="2025-05-29T13:22:28-04:00">
-                    May 29, 2025
+                <time datetime="2026-04-30T07:07:03-04:00">
+                    April 30, 2026
                 </time>
             </div>
             <h3 class="post-title">
-                <a href="http://localhost:1313/posts/rag/">RAG</a>
+                <a href="http://localhost:1313/posts/self-educate/">You-Should-Self-Educate</a>
             </h3>
             <div class="post-summary">
-                <h1 id="what-is-rag">What is RAG?</h1>
-<p>If you&rsquo;ve been <em>trying</em> to keep up with AI, there&rsquo;s a good chance you&rsquo;ve come across the term RAG. When I first learned heard the term, I wasn&rsquo;t exactly sure what it meant form the context of the discussion.</p>
-<p>Retrieval-Augmented Generation (RAG) is a technique that enhances the accuracy of large language models (LLMs) by giving them a wider context window and including external (from the LLM&rsquo;s database) knowledge sources.</p>
+                <p><strong>Have you ever thought about going back to get a degree in <code>your topic here</code>?</strong></p>
+<p>I have. Many times.</p>
+<p>Yet, I have never been able to personally justify spending tens of thousands of dollars to get a formal degree that may or may not provide a return on that investment. I signed up to do an MBA program several years ago with the University of Illinois, but ended up never taking a single class when I found out that most graduates with that degree don’t make significantly more than their non-MBA degree holding peers.</p>
             </div>
-            <a href="http://localhost:1313/posts/rag/" class="read-more">Read more →</a>
+            <a href="http://localhost:1313/posts/self-educate/" class="read-more">Read more →</a>
         </article>
         
 

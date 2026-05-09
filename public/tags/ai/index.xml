@@ -6,8 +6,15 @@
     <description>Recent content in AI on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 May 2025 13:22:28 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 08:42:52 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code</title>
+      <link>http://localhost:1313/posts/claude-code/</link>
+      <pubDate>Fri, 01 May 2026 08:42:52 -0400</pubDate>
+      <guid>http://localhost:1313/posts/claude-code/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been about a year since I last tried to &amp;ldquo;vibe code&amp;rdquo; and I used the normal Claude LLM to do so.  The experience was okay, but frustrating.  When using the standard chat interface, you have to be very specific about what you&amp;rsquo;re feeding the chat and make sure that you keep the context window fairly short, because eventually the tool will start hallucinating more and more as you go on.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>RAG</title>
       <link>http://localhost:1313/posts/rag/</link>

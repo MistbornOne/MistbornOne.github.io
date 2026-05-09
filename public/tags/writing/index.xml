@@ -6,8 +6,15 @@
     <description>Recent content in Writing on Ian Watkins</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 May 2025 07:14:21 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 20:03:39 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Site</title>
+      <link>http://localhost:1313/posts/new-site/</link>
+      <pubDate>Thu, 30 Apr 2026 20:03:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/new-site/</guid>
+      <description>&lt;p&gt;In case you missed it, I&amp;rsquo;ve been blogging at &lt;a href=&#34;https://iankwatkins.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meditations and Marginalia&lt;/a&gt;.  I&amp;rsquo;ve started using that more than this site for various reasons, but I may change my mind, depending on how things go in the future.  I was having some issues with GitHub Pages, but that seems to be resolved now.&lt;/p&gt;&#xA;&lt;p&gt;Moral of the story, check out the new site if you happen to stumble on this page.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Better Tasks</title>
       <link>http://localhost:1313/projects/better-tasks/</link>
