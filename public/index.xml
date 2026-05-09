@@ -5,7 +5,7 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on Ian Watkins</description>
     <generator>Hugo</generator>
-    <language>{{ .Site.Locale }}</language>
+    <language>{{ .Site.LanguageCode }}</language>
     <lastBuildDate>Sat, 09 May 2026 13:54:07 -0400</lastBuildDate>
     <atom:link
             href="http://localhost:1313/index.xml"
