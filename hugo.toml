@@ -1,4 +1,4 @@
-baseURL = 'https://ianwatkins.dev'
+baseURL = 'https://ianwatkins.dev/'
 locale= 'en-us'
 title = 'Ian Watkins'
 theme = 'main'
@@ -21,7 +21,7 @@ email = "iankwatkins@gmail.com"
 avatar = "/images/headshot.jpg"
 logo = "/favicon.ico"
 enableDarkMode = true
-defaultTheme = "light"                                                                                                                                                                                                                                 
+defaultTheme = "light"
 codeBlockCopyButton = true
 
 [menu]
