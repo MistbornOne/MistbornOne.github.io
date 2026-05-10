@@ -1,7 +1,7 @@
 +++
 date = '2026-05-10T16:33:18-04:00'
 draft = false
-title = 'Python in 30 Days Day 3'
+title = 'Python in 30 Days - Day 3'
 tags = ['Coding', 'Python In 30 Days', 'Python', 'Claude', 'Challenge']
 +++
 
